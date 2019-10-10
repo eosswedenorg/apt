@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% assign repo = page.name %}
+{% assign list = site.data.index[repo].bionic %}
+
+<h2>{{ page.title }}</h2>
+
+<p>{{ page.description }}</p>
+
+{% for component in site.apt.components %}
+
+<h3>{{ component }}</h3>
+
+{% if list[component].size > 0 %}
+
+{% highlight bash %}
+$ sudo apt-add-repository -y 'deb [arch=amd64] {{site.apt.url}}/{{repo}} bionic {{component}}'
+{% endhighlight %}
+
+<table class="d-lg-table">
+    <tr>
+        <th style="width: 20%">Name</th>
+        <th>Version</th>
+    </tr>
+    {% for package in list[component] %}
+    {% for version in package.versions %}
+    <tr>
+        {% if forloop.first == true %}
+        <td>{{ package.name }}</td>
+        {% else %}
+        <td class="text-center text-gray-light">-</td>
+        {% endif %}
+        <td>{{ version }}</td>
+    </tr>
+    {% endfor %}
+    {% endfor %}
+</table>
+{% else %}
+<p>No packages</p>
+{% endif %}
+
+{% endfor %}
