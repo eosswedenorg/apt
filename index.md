@@ -40,7 +40,7 @@ Here is a list of different repositories we provide. Each repository has 3 diffe
 #### Repositories
 
 {% for repo in site.repos %}
-* [{{ repo.name }}]({{ repo.url }}) - {{ repo.description }}
+* [{{ repo.name }}]({{ repo.url | relative_url }}) - {{ repo.description }}
 {% endfor %}
 
 ### Example
