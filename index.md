@@ -1,25 +1,25 @@
 
-The repository is hosted on https://apt.eossweden.org/
+The repository is hosted on [{{ site.apt.url }}]({{ site.apt.url }})
 
 ### Setup
 
 First you must add our `gpg` key to `apt`:
 
 ```bash
-$ curl https://apt.eossweden.org/key | sudo apt-key add -
+$ curl {{ site.apt.url }}/key | sudo apt-key add -
 ```
 
 Then you can add one or more of your repositories:
 
 ```bash
-$ sudo apt-add-repository -y 'deb [arch=amd64] https://apt.eossweden.org/eosio bionic stable'
+$ sudo apt-add-repository -y 'deb [arch=amd64] {{ site.apt.url }}/eosio bionic stable'
 $ sudo apt-get update
 ```
 
 The url is structures as follows:
 
 ```
-https://apt.eossweden.org/<repository> bionic <component> [ <component1> ] [ <componentN> ]
+{{ site.apt.url }}/<repository> bionic <component> [ <component1> ] [ <componentN> ]
 ```
 
 one `repository` and one or more `components` needs to be specified. These are explained below.
@@ -49,11 +49,11 @@ Here is a list of different repositories we provide. Each repository has 3 diffe
 To add the `stable` `eosio` repository the following command will do:
 
 ```bash
-$ sudo apt-add-repository -y 'deb [arch=amd64] https://apt.eossweden.org/main bionic stable'
+$ sudo apt-add-repository -y 'deb [arch=amd64] {{ site.apt.url }}/main bionic stable'
 ```
 
 To add both `edge` and `stable` components for the `main` repository:
 
 ```bash
-$ sudo apt-add-repository -y 'deb [arch=amd64] https://apt.eossweden.org/main bionic stable edge
+$ sudo apt-add-repository -y 'deb [arch=amd64] {{ site.apt.url }}/main bionic stable edge
 ```
