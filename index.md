@@ -39,10 +39,9 @@ Here is a list of different repositories we provide. Each repository has 3 diffe
 
 #### Repositories
 
-| Name      | Description                            |
-| --------- | -------------------------------------- |
-| main      | Releases of EOS Sw/eden own products.  |
-| eosio     | EOSIO Software                         |
+{% for repo in site.repos %}
+* [{{ repo.name }}]({{ repo.url }}) - {{ repo.description }}
+{% endfor %}
 
 ### Example
 
