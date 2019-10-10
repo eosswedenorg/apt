@@ -7,3 +7,6 @@ apt:
     - edge
     - testing
 
+collections:
+  repos:
+    output: true
