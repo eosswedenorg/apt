@@ -1,1 +1,9 @@
 title: EOS Sw/eden APT
+
+apt:
+  url: https://apt.eossweden.org
+  components:
+    - stable
+    - edge
+    - testing
+
