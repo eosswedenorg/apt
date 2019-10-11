@@ -3,9 +3,3 @@
   versions: 
     - 0.1.1-1
     - 0.1.0-1
-- name: eosio.cdt-1.5
-  versions: 
-    - 1.5.0-1
-- name: eosio.cdt-1.6
-  versions: 
-    - 1.6.2-1
