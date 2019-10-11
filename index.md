@@ -27,21 +27,23 @@ one `repository` and one or more `components` needs to be specified. These are e
 
 ## Contents
 
-Here is a list of different repositories we provide. Each repository has 3 different components described below.
-
-### Components
-
-| Name    | Description                                                                                                |
-| ------- | ---------------------------------------------------------------------------------------------------------- |
-| stable  | Releases that are properly tested and does not contain any experimental code                               |
-| edge    | Development releases that may or may not work as expected. Do not use in production evironment             |
-| testing | Cutting edge releases, everything ends up here first to be tested before being moved to `edge` or `stable` |
+Here is a list of different repositories we provide.
 
 ### Repositories
 
 {% for repo in site.repos %}
 * [{{ repo.name }}]({{ repo.url | relative_url }}) - {{ repo.description }}
 {% endfor %}
+
+### Components
+
+Each repository has 3 different components described below.
+
+| Name    | Description                                                                                                |
+| ------- | ---------------------------------------------------------------------------------------------------------- |
+| stable  | Releases that are properly tested and does not contain any experimental code                               |
+| edge    | Development releases that may or may not work as expected. Do not use in production evironment             |
+| testing | Cutting edge releases, everything ends up here first to be tested before being moved to `edge` or `stable` |
 
 ## Example
 
