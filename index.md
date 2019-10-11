@@ -1,7 +1,7 @@
 
 The repository is hosted on [{{ site.apt.url }}]({{ site.apt.url }})
 
-### Setup
+## Setup
 
 First you must add our `gpg` key to `apt`:
 
@@ -25,11 +25,11 @@ The url is structures as follows:
 one `repository` and one or more `components` needs to be specified. These are explained below.
 
 
-### Contents
+## Contents
 
 Here is a list of different repositories we provide. Each repository has 3 different components described below.
 
-#### Components
+### Components
 
 | Name    | Description                                                                                                |
 | ------- | ---------------------------------------------------------------------------------------------------------- |
@@ -37,13 +37,13 @@ Here is a list of different repositories we provide. Each repository has 3 diffe
 | edge    | Development releases that may or may not work as expected. Do not use in production evironment             |
 | testing | Cutting edge releases, everything ends up here first to be tested before being moved to `edge` or `stable` |
 
-#### Repositories
+### Repositories
 
 {% for repo in site.repos %}
 * [{{ repo.name }}]({{ repo.url | relative_url }}) - {{ repo.description }}
 {% endfor %}
 
-### Example
+## Example
 
 To add the `stable` `eosio` repository the following command will do:
 
