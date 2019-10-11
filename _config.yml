@@ -10,3 +10,6 @@ apt:
 collections:
   repos:
     output: true
+
+sass:
+  style: compressed
