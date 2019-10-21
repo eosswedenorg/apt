@@ -15,9 +15,7 @@ layout: default
 
 {% if list[component].size > 0 %}
 
-{% highlight bash %}
-$ sudo apt-add-repository -y 'deb [arch=amd64] {{site.apt.url}}/{{repo}} bionic {{component}}'
-{% endhighlight %}
+{% include apt-add.html name=repo repo=repo components=component %}
 
 <table class="d-lg-table">
     <tr>

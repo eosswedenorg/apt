@@ -11,10 +11,7 @@ $ curl {{ site.apt.url }}/key 2> /dev/null | sudo apt-key add -
 
 Then you can add one or more of your repositories:
 
-```bash
-$ sudo apt-add-repository -y 'deb [arch=amd64] {{ site.apt.url }}/eosio bionic stable'
-$ sudo apt-get update
-```
+{% include apt-add.html name="eos" repo="eosio" components="stable" update=true %}
 
 The url is structures as follows:
 
@@ -49,12 +46,8 @@ Each repository has 3 different components described below.
 
 To add the `stable` `eosio` repository the following command will do:
 
-```bash
-$ sudo apt-add-repository -y 'deb [arch=amd64] {{ site.apt.url }}/main bionic stable'
-```
+{% include apt-add.html name="eos" repo="eosio" components="stable" %}
 
 To add both `edge` and `stable` components for the `main` repository:
 
-```bash
-$ sudo apt-add-repository -y 'deb [arch=amd64] {{ site.apt.url }}/main bionic stable edge
-```
+{% include apt-add.html name="eos" repo="eosio" components="stable edge" %}
