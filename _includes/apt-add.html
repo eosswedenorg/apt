@@ -1,0 +1,4 @@
+{% highlight bash %}
+$ sudo apt-add-repository -y 'deb [arch=amd64] https://apt.{{ include.name }}sweden.org/{{ include.repo }} bionic {{ include.components }}' {% if include.update == true %}
+$ sudo apt-get update{% endif %}
+{% endhighlight %}
