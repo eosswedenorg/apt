@@ -6,7 +6,7 @@ The repository is hosted on [{{ site.apt.url }}]({{ site.apt.url }})
 First you must add our `gpg` key to `apt`:
 
 ```bash
-$ curl {{ site.apt.url }}/key | sudo apt-key add -
+$ curl {{ site.apt.url }}/key 2> /dev/null | sudo apt-key add -
 ```
 
 Then you can add one or more of your repositories:
