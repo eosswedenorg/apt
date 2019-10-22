@@ -28,7 +28,8 @@ Here is a list of different repositories we provide.
 
 ### Repositories
 
-{% for repo in site.repos %}
+{% assign repos = site.repos | sort: 'sequence' %}
+{% for repo in repos %}
 * [{{ repo.title }}]({{ repo.url | relative_url }}) - {{ repo.description }}
 {% endfor %}
 

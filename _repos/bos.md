@@ -1,6 +1,7 @@
 ---
 layout: repo
 permalink: /r/bos
+sequence: 3
 
 title: BOS
 domain: apt.bossweden.org

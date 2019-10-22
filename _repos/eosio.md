@@ -1,6 +1,7 @@
 ---
 layout: repo
 permalink: /r/eosio
+sequence: 2
 
 title: EOSIO
 repo: eosio

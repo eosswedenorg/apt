@@ -1,6 +1,7 @@
 ---
 layout: repo
 permalink: /r/wax
+sequence: 4
 
 title: WAX
 domain: apt.waxsweden.org
