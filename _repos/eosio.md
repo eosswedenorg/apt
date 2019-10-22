@@ -1,7 +1,8 @@
 ---
 layout: repo
 permalink: /r/eosio
-name: eosio
-title: EOSIO repository
+
+title: EOSIO
+repo: eosio
 description: EOS related software
 ---

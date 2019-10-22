@@ -29,7 +29,7 @@ Here is a list of different repositories we provide.
 ### Repositories
 
 {% for repo in site.repos %}
-* [{{ repo.name }}]({{ repo.url | relative_url }}) - {{ repo.description }}
+* [{{ repo.title }}]({{ repo.url | relative_url }}) - {{ repo.description }}
 {% endfor %}
 
 ### Components

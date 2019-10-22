@@ -1,7 +1,8 @@
 ---
 layout: repo
 permalink: /r/main
-name: main
-title: Main repository
+
+title: Main
+repo: main
 description: Releases of Sw/eden own software.
 ---

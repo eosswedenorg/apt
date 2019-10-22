@@ -1,7 +1,9 @@
 ---
 layout: repo
 permalink: /r/wax
-name: wax
-title: WAX Repository
+
+title: WAX
+domain: apt.waxsweden.org
+repo: wax
 description: WAX Chain port of EOSIO and related software.
 ---
