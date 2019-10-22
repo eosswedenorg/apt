@@ -1,12 +1,12 @@
 
-The repository is hosted on [{{ site.apt.url }}]({{ site.apt.url }})
+The repository is hosted on [{{ site.apt.domain }}](https://{{ site.apt.domain }})
 
 ## Setup
 
 First you must add our `gpg` key to `apt`:
 
 ```bash
-$ curl {{ site.apt.url }}/key 2> /dev/null | sudo apt-key add -
+$ curl https://{{ site.apt.domain }}/key 2> /dev/null | sudo apt-key add -
 ```
 
 Then you can add one or more of your repositories:
@@ -16,7 +16,7 @@ Then you can add one or more of your repositories:
 The url is structures as follows:
 
 ```
-{{ site.apt.url }}/<repository> bionic <component> [ <component1> ] [ <componentN> ]
+https://{{ site.apt.domain }}/<repository> bionic <component> [ <component1> ] [ <componentN> ]
 ```
 
 one `repository` and one or more `components` needs to be specified. These are explained below.

@@ -1,7 +1,7 @@
 title: Sw/eden APT
 
 apt:
-  url: https://apt.eossweden.org
+  domain: apt.eossweden.org
   components:
     - stable
     - edge
