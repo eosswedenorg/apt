@@ -1,15 +1,32 @@
+# -----------------
+#  Site
+# -----------------
+
 title: Sw/eden APT
 
+# -----------------
+#  APT
+# -----------------
 apt:
+  # Default APT domain.
   domain: apt.eossweden.org
+  # Staticly define the components and the order (most used ones first)
   components:
     - stable
     - edge
     - testing
 
+# -----------------
+#  Collections
+# -----------------
 collections:
   repos:
     output: true
 
+# -----------------
+#  Build config
+# -----------------
+
 sass:
+  # Compress (minify) css output.
   style: compressed
