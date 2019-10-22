@@ -11,7 +11,7 @@ $ curl https://{{ site.apt.domain }}/key 2> /dev/null | sudo apt-key add -
 
 Then you can add one or more of your repositories:
 
-{% include apt-add.html name="eos" repo="eosio" components="stable" update=true %}
+{% include apt-add.html repo="eosio" components="stable" update=true %}
 
 The url is structures as follows:
 
@@ -46,8 +46,8 @@ Each repository has 3 different components described below.
 
 To add the `stable` `eosio` repository the following command will do:
 
-{% include apt-add.html name="eos" repo="eosio" components="stable" %}
+{% include apt-add.html repo="eosio" components="stable" %}
 
 To add both `edge` and `stable` components for the `main` repository:
 
-{% include apt-add.html name="eos" repo="eosio" components="stable edge" %}
+{% include apt-add.html repo="eosio" components="stable edge" %}
