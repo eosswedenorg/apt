@@ -1,4 +1,4 @@
-{% assign domain = include.name | default: site.apt.domain %}
+{% assign domain = include.domain | default: site.apt.domain %}
 {% highlight bash %}
 $ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ domain }}/{{ include.repo }} bionic {{ include.components }}' {% if include.update == true %}
 $ sudo apt-get update{% endif %}
