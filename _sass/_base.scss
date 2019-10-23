@@ -13,3 +13,21 @@ figure {
     border-top: 1px solid $gray-300;
     color: $text-gray;
 }
+
+.container-sm {
+    max-width: 512px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.error-page {
+    @extend .container-sm;
+    text-align: center;
+    h1 {
+        font-size: 4em;
+    }
+
+    p {
+        margin-top: 2em;
+    }
+}
