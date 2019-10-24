@@ -41,7 +41,7 @@ Each repository has 3 different components described below.
 | ------- | ---------------------------------------------------------------------------------------------------------- |
 | stable  | Releases that are properly tested and does not contain any experimental code                               |
 | edge    | Development releases that may or may not work as expected. Do not use in production environment            |
-| testing | Cutting edge releases, everything ends up here first to be tested before being moved to `edge` or `stable` |
+| testing | Testing releases, everything ends up here first to be tested before being moved to `edge` or `stable` |
 
 ## Example
 
