@@ -17,7 +17,7 @@
     - 2.0.0-rc1
 - name: eosio.cdt-1.3
   versions: 
-    - 1.3.0
+    - 1.3.0-1
 - name: eosio.cdt-1.5
   versions: 
     - 1.5.0-1
