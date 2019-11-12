@@ -3,9 +3,10 @@ The repository is hosted on [{{ site.apt.domain }}](https://{{ site.apt.domain }
 
 ## Setup
 
-First you must add our `gpg` key to `apt`:
+First you need to make sure some packages are installed and that our `gpg` key is added to `apt`:
 
 ```bash
+$ sudo apt-get install software-properties-common
 $ curl https://{{ site.apt.domain }}/key 2> /dev/null | sudo apt-key add -
 ```
 
