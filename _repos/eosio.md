@@ -1,6 +1,6 @@
 ---
 layout: repo
-permalink: /r/eosio
+permalink: /eosio
 sequence: 2
 
 title: EOSIO
