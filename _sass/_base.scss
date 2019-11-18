@@ -31,3 +31,18 @@ figure {
         margin-top: 2em;
     }
 }
+
+.btn {
+
+    &:hover {
+        cursor: pointer;
+        color: $brand-color;
+    }
+}
+
+.btn-copy-code {
+    float: right;
+    .far, .fas {
+        color: $text-gray !important;
+    }
+}

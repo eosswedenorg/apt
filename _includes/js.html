@@ -2,8 +2,46 @@
 	integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg="
 	crossorigin="anonymous"></script>
 
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+	integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+	crossorigin="anonymous"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/regular.min.js"
 	integrity="sha256-FR7X8I31WIyoJaQLE4STF1bYEoOncTwxTLPPgJVLXVs="
 	crossorigin="anonymous"></script>
 
-<script>anchors.add();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+
+<script type="text/javascript">
+
+	anchors.add();
+
+	// adapted from https://stackoverflow.com/a/48078807/1217368
+	$(document).ready(function() {
+		$('.highlight > pre').each(function(i) {
+			if (!$(this).parent().hasClass('no-select-button')) {
+
+				// create an id for the current code section
+				var currentId = "codeblock" + (i + 1);
+
+				// find the code section and add the id to it
+				var codeSection = $(this).find('code');
+				codeSection.attr('id', currentId);
+
+				// now create the button, setting the clipboard target to the id
+				var btn = document.createElement('a');
+				btn.setAttribute('type', 'button');
+				btn.setAttribute('class', 'btn btn-copy-code');
+				btn.setAttribute('data-clipboard-target', '#' + currentId);
+				btn.innerHTML = '<i class="far fa-file-code fa-2x"></i>';
+				this.insertBefore(btn, this.firstChild);
+			}
+		});
+
+		var clipboard = new ClipboardJS('.btn-copy-code');
+		clipboard.on('success', function(event) {
+    		event.clearSelection();
+		});
+	});
+
+</script>
