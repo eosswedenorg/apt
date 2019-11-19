@@ -1,7 +1,7 @@
 ---
 layout: repo
 permalink: /daobet
-sequence: 2
+sequence: 4
 
 title: DAOBET
 repo: daobet
