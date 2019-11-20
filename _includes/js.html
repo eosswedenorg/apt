@@ -12,6 +12,9 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
 
+<script src="https://unpkg.com/popper.js@1"></script>
+<script src="https://unpkg.com/tippy.js@5"></script>
+
 <script type="text/javascript">
 
 	anchors.add();
@@ -35,12 +38,32 @@
 				btn.setAttribute('data-clipboard-target', '#' + currentId);
 				btn.innerHTML = '<i class="far fa-file-code fa-2x"></i>';
 				this.insertBefore(btn, this.firstChild);
+
+				// Create tooltip
+				tippy(btn, {
+					trigger: 'manual',
+					content: "Copied!",
+					placement: 'left',
+				});
 			}
 		});
 
 		var clipboard = new ClipboardJS('.btn-copy-code');
+
+		// Attach callback to copy successful event.
 		clipboard.on('success', function(event) {
-    		event.clearSelection();
+			const tooltip = event.trigger._tippy;
+
+			// Clear text selection.
+			event.clearSelection();
+
+			// Show tooltiop
+			tooltip.show();
+
+			// After 1 second, hide it again.
+			setTimeout(function() {
+				tooltip.hide();
+			}, 1000, tooltip);
 		});
 	});
 
