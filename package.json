@@ -1,0 +1,23 @@
+{
+  "name": "apt-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-js": "^3.6.9"
+  },
+  "scripts": {
+    "build": "./_scripts/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eosswedenorg/apt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eosswedenorg/apt/issues"
+  },
+  "homepage": "https://github.com/eosswedenorg/apt#readme"
+}
