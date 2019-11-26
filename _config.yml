@@ -25,6 +25,7 @@ apt:
 # -----------------
 collections:
   repos:
+    permalink: "/:name"
     output: true
 
 # -----------------

@@ -1,6 +1,5 @@
 ---
 layout: repo
-permalink: /bos
 sequence: 3
 
 title: BOS

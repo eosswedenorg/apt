@@ -1,6 +1,5 @@
 ---
 layout: repo
-permalink: /wax
 sequence: 5
 
 title: WAX

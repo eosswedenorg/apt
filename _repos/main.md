@@ -1,6 +1,5 @@
 ---
 layout: repo
-permalink: /main
 sequence: 1
 
 title: Main

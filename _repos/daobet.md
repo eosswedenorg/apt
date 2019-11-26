@@ -1,6 +1,5 @@
 ---
 layout: repo
-permalink: /daobet
 sequence: 4
 
 title: DAOBET
