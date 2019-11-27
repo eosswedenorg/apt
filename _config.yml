@@ -27,6 +27,9 @@ collections:
   repos:
     permalink: "/:name"
     output: true
+  packages:
+    permalink: "/:path"
+    output: true
 
 # -----------------
 #  Build config
