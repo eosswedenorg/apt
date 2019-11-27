@@ -8,6 +8,13 @@ title: Sw/eden APT
 description: APT Packages Information
 
 
+defaults:
+  - scope:
+      path: ""
+      type: "packages"
+    values:
+      layout: "package"
+
 # -----------------
 #  APT
 # -----------------

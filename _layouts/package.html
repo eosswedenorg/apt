@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<h2>Package: {{ page.Name }} ({{ page.Versions.first[0] }}) [{{ page.Component }}]</h2>
+
+<h3>{{ page.Description | capitalize }}</h3>
+
+<h4>Dependencies</h4>
+
+{% if page.Depends.size > 0 %}
+<ul>
+{% for dep in page.Depends %}
+	<li>{{ dep }}</li>
+{% endfor %}
+</ul>
+{% else %}
+<p class="text-gray-light">None</p>
+{% endif %}
+
+<h4>Download</h4>
+
+<table>
+	<tr>
+		<th>Version</th>
+		<th>Size (Bytes)</th>
+		<th>md5</th>
+	</tr>
+	{% for version in page.Versions %}
+	<tr>
+		<td>
+			<a href="https://{{site.apt.domain}}/{{ page.Repo }}/pool/{{ page.Component }}/{{ page.Name | slice: 0 }}/{{ page.Name }}/{{ version[1].Filename }}">
+				{{ version[0] }}
+			</a>
+		</td>
+		<td>{{ version[1].Size }}</td>
+		<td>{{ version[1].MD5sum }}</td>
+	</tr>
+	{% endfor %}
+</table>
+
+<h4>External resources</h4>
+
+<ul>
+	{% if page.Homepage.size > 0 %}
+	<li>Homepage: <a target="_blank" href="{{ page.Homepage }}">{{ page.Homepage }}</a></li>
+	{% endif %}
+	{% if page.Maintainer.size > 0 %}
+	<li>Maintainer: {{ page.Maintainer }}</li>
+	{% endif %}
+</ul>
