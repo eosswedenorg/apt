@@ -45,3 +45,12 @@ collections:
 sass:
   # Compress (minify) css output.
   style: compressed
+
+exclude:
+  - ".gitignore"
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - vendor
+  - node_modules
