@@ -1,0 +1,12 @@
+{% assign map = "B,KB,MB,GB" | split: "," %}
+
+{% assign v = include.input | to_integer %}
+{% for suffix in map %}
+
+	{% if v < 1000.0 %}
+		{{ v | round: 2 }} {{ suffix }}
+		{% break %}
+	{% endif %}
+
+	{% assign v = v | divided_by: 1000.0 %}
+{% endfor %}
