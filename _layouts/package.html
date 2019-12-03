@@ -23,7 +23,7 @@ layout: default
 <table>
 	<tr>
 		<th>Version</th>
-		<th>Size (Bytes)</th>
+		<th>Size</th>
 		<th>sha256</th>
 	</tr>
 	{% for version in page.Versions %}
@@ -33,7 +33,10 @@ layout: default
 				{{ version[0] }}
 			</a>
 		</td>
-		<td>{{ version[1].Size }}</td>
+		<td>
+			{% assign tmpSize = version[1].Size %}
+			{% include size.html input=tmpSize %}
+		</td>
 		<td>{{ version[1].SHA256 }}</td>
 	</tr>
 	{% endfor %}
