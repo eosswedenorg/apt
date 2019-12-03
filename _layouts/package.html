@@ -24,7 +24,7 @@ layout: default
 	<tr>
 		<th>Version</th>
 		<th>Size (Bytes)</th>
-		<th>md5</th>
+		<th>sha256</th>
 	</tr>
 	{% for version in page.Versions %}
 	<tr>
@@ -34,7 +34,7 @@ layout: default
 			</a>
 		</td>
 		<td>{{ version[1].Size }}</td>
-		<td>{{ version[1].MD5sum }}</td>
+		<td>{{ version[1].SHA256 }}</td>
 	</tr>
 	{% endfor %}
 </table>
