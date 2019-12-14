@@ -3,6 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
+Conflicts: eosio, bos
 Depends:
   - libc6
   - libgcc1
@@ -21,6 +22,13 @@ Priority: optional
 Repo: wax
 Section: devel
 Versions:
+  1.8.4-2:
+    Filename: wax-mv-184_1.8.4-2_amd64.deb
+    Size: "12390980"
+    MD5sum: 994c0360a18c571932b7f5064aded82d
+    SHA1: a8a6320b761e989708781782cd3cf2db56f7545a
+    SHA256: 39413e6cea86f0aa3a8f9702130681ba5c0d933688fb34dbde2cc532c6ea476e
+    SHA512: de52fec63876656ed4fe6e91bb8ce530c7397168fa6949d36aee5185dae1c4d76d45c80c8364b5e19a086fd140d5d2771943954cbd1692c1ca0dab6c77e73bdc
   1.8.4-1:
     Filename: wax-mv-184_1.8.4-1_amd64.deb
     Size: "65051688"
