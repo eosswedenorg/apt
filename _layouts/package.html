@@ -37,7 +37,7 @@ layout: default
 			{% assign tmpSize = version[1].Size %}
 			{% include size.html input=tmpSize %}
 		</td>
-		<td>{{ version[1].SHA256 }}</td>
+		<td class="text-mono">{{ version[1].SHA256 }}</td>
 	</tr>
 	{% endfor %}
 </table>
