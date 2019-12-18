@@ -3,6 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
+Conflicts: wax, bos
 Depends:
   - libc6
   - libgcc1
@@ -21,6 +22,20 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  2.0.0-rc3:
+    Filename: eosio_2.0.0-rc3_amd64.deb
+    Size: "37761448"
+    MD5sum: 79014c9d7eb9d333c4608478bcbcc817
+    SHA1: 92098be222442be8dfe443abb34e3570e32feaa5
+    SHA256: 910f93466d608620083f37d2bf3a159ee23c44852cbeb3bb50a3f0adee0b9129
+    SHA512: d08e659278f8f23fac8b216ae537367c0acf69c748394169e4913774badb7915017a99c000fbefd683d92d78f2737a284eefa11e2214b03e9ad963a76f6a7534
+  1.8.7-1:
+    Filename: eosio_1.8.7-1_amd64.deb
+    Size: "12192364"
+    MD5sum: 2058ae203d719603ae49ce159d0a0190
+    SHA1: 10fb73dc313c9cde0b4b812b53ac7de37d6f4586
+    SHA256: 6e46c3f84b24ee62f536e01ca8a38ea4d543abe7a8a47c7decd45748b74cb9a9
+    SHA512: 6b05c3a273dc41aa06db9a91825271b6fdd46de0faa6a6728aeb81ed022a096e7567d7f475087c08d99fd704187ca72333e0be1b90351feba65cb1bbc4e0ea91
   1.8.1-1:
     Filename: eosio_1.8.1-1_amd64.deb
     Size: "12370528"
