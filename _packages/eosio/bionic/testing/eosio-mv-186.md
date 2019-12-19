@@ -3,7 +3,6 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
-Conflicts: wax, bos
 Depends:
   - libc6
   - libgcc1
@@ -24,9 +23,9 @@ Section: devel
 Versions:
   1.8.6-2:
     Filename: eosio-mv-186_1.8.6-2_amd64.deb
-    Size: "64734252"
-    MD5sum: 77ca638672b7ca2d5010a22cfffaf751
-    SHA1: f0287bc76e73a24e410bd42c536b2498765464ff
-    SHA256: 8e7e279aaf8e55757920b79c658dc7b1562c5a52e75811a433f0749ef974140b
-    SHA512: eaab032bc96db48672ae502ef84d41fca8346e5d99926650ab88598f933792189bcbacfab149af698327cae9b533043e462a350dc57b375e2c0f0ab4f4ae3ab5
+    Size: "12178156"
+    MD5sum: 3f8fff36af2769b4bde4c37ce89adc5b
+    SHA1: 775855dd99c76953f7819d210291876043ae8fae
+    SHA256: ed45836b8dba027e73f8f87699c96cdeddf3f706bb123f66f5d99ddaf0d8cb73
+    SHA512: 0fe000822224b6a9e08d1e01762e28dc311650f7dc9077c155b0d34abb8f49679ee8ee763693936787f10a6531575e6e286bbf55755d76f3430d4978f4ae7086
 ---

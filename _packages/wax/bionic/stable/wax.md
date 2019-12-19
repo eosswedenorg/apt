@@ -3,6 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: stable
+Conflicts: eosio, bos
 Depends:
   - libc6
   - libgcc1
@@ -21,6 +22,13 @@ Priority: optional
 Repo: wax
 Section: devel
 Versions:
+  1.8.4-2:
+    Filename: wax_1.8.4-2_amd64.deb
+    Size: "12392632"
+    MD5sum: fa80a16f64e6975b60b3ec87d9e4d590
+    SHA1: b9c77c7c02b4e1220e984d27e4b9ef8b1ae7e3e4
+    SHA256: 24ef6f20d0408b533a2168ba3799ba3b2baa1f7c36d250bc2cbf45b533d8201b
+    SHA512: b57027fce3199f6fe72caf7c460ac4390892a4377680ee956d692eff33a1baf8162a330370e9f98919d7e7ed425e949ce1f7937a9434d173a4fb7a57d47f0026
   1.8.4-1:
     Filename: wax_1.8.4-1_amd64.deb
     Size: "12385452"
@@ -28,6 +36,13 @@ Versions:
     SHA1: 57bb5f876518c35885697e9271736c7df0a9d2ab
     SHA256: 8eb97c862d658a68d53d56180d5931e9e1f45a403ef6f297833d8677fb78d95a
     SHA512: 6879f529745623c8e5eb1c3f8a6a008e8f90cd8d00d6d69239673e3eba468daef0d25d56e6ece6523b212dfd8b5ceb21c7a3242de53db8cb115f95cbf15e76c1
+  1.8.3-2:
+    Filename: wax_1.8.3-2_amd64.deb
+    Size: "65050516"
+    MD5sum: ecd461630713959e70f0bc9ad6702dc2
+    SHA1: 9fece7485ee0aad69395e6d80b13d9ab41e9358c
+    SHA256: 9483996058233969a25a1eb83cc27da8a939c10b4a8807610b1e80ff016e8f39
+    SHA512: c51d9d88488626a76616ef4814c004bb10ece423c3eeaae9149182ceecd33a954443acd6c98a4484c110e49b046eb8a37bfc13915fb120aafa94ca92aa4b817b
   1.8.3-1:
     Filename: wax_1.8.3-1_amd64.deb
     Size: "12387468"

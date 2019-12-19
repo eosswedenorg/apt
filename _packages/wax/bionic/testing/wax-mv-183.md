@@ -3,7 +3,6 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
-Conflicts: eosio, bos
 Depends:
   - libc6
   - libgcc1
@@ -24,11 +23,11 @@ Section: devel
 Versions:
   1.8.3-2:
     Filename: wax-mv-183_1.8.3-2_amd64.deb
-    Size: "65044408"
-    MD5sum: c0bc10a9711be1c0d877923dfac9e4bc
-    SHA1: 35738d0aec6f0fa6504f274ef700a7b46d13ce89
-    SHA256: 511c348329618a4fed6cf3cc0f4467d2b64577f31abde9d793fc24749578164f
-    SHA512: d322d22b97884f00fcb4b48450aac434b8226a8d9613c8f214b6d62ea7f83b25ebe6ab7e9250d9d535dd33bfcf51e76ab0bcf97bbc1ff7fa41d4d33ca18389d7
+    Size: "65043892"
+    MD5sum: 756864b0ad9a1eb6d3bddf3a73445cd8
+    SHA1: b588787d30f01e6478c197404f71160e7fb50964
+    SHA256: 32da1c8d9d33830c651b8f03f2b2c690fb4d9885be0a464ac01d5974eee98dbd
+    SHA512: 0e707db1da44dd20ace2c614ae53cc85cfba54b4b583d08864772b14436bdbd952bc06ed527dd98af4c7019f72f3f606ed5d6624f41a50ed190448fc0d53d60c
   1.8.3-1:
     Filename: wax-mv-183_1.8.3-1_amd64.deb
     Size: "65056736"
