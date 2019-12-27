@@ -3,6 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: stable
+Conflicts: wax, bos
 Depends:
   - libc6
   - libgcc1
@@ -21,6 +22,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  1.8.7-1:
+    Filename: eosio_1.8.7-1_amd64.deb
+    Size: "12192364"
+    MD5sum: 2058ae203d719603ae49ce159d0a0190
+    SHA1: 10fb73dc313c9cde0b4b812b53ac7de37d6f4586
+    SHA256: 6e46c3f84b24ee62f536e01ca8a38ea4d543abe7a8a47c7decd45748b74cb9a9
+    SHA512: 6b05c3a273dc41aa06db9a91825271b6fdd46de0faa6a6728aeb81ed022a096e7567d7f475087c08d99fd704187ca72333e0be1b90351feba65cb1bbc4e0ea91
   1.8.6-1:
     Filename: eosio_1.8.6-1_amd64.deb
     Size: "12180768"
@@ -56,4 +64,11 @@ Versions:
     SHA1: 97bed5618e8ad64571d3b1b8bd0b0f1ee61b81eb
     SHA256: 63aacc18df6b27a8a31e6f607aeac466fd890eaab86017ceb56e0c4fcc4fb65b
     SHA512: dcf2a2635e73dc6f0f9262702820e309aad2a0bd5c9004a9a11eb0de1a5779e38c1ba4bd6693f18bf51abf38354ed7f22096e66f77f5beaf12bdf599ebe33b77
+  1.8.1-1:
+    Filename: eosio_1.8.1-1_amd64.deb
+    Size: "12370528"
+    MD5sum: 0f3892f6e2e17af6b619a6536138ca44
+    SHA1: d7abe819d4422dfeea0e7f97bf7ab9c74c61a0a3
+    SHA256: 7086843ab98e3908a15fee98abf42bdf72db4ed4eb635c87575551dd15a181f8
+    SHA512: e5d88fe1409d502e024633828c64830544b86d250d3a21df455751dc9fd9af2912bb21efb233a34c8406931f5074b9eecd2033c1912a285c1ea543746b5ff24d
 ---

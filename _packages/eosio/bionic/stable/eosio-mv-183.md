@@ -21,6 +21,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  1.8.3-4:
+    Filename: eosio-mv-183_1.8.3-4_amd64.deb
+    Size: "12373468"
+    MD5sum: f595eee40c71dc05de9b8002d238f620
+    SHA1: e2a29a51b8939d879e3a299282ab16f77c3f17d8
+    SHA256: c8dca07132ac1ef2dcfbefc515e5947777fa20af554c421a46a3e8f931bb4a8a
+    SHA512: 57a10e1511f4d811136fa49f1fb7128f3416253a0aeeec698d39d4eafb72407c6e06c8db82ea05c62507c6fa13dce8913b397cbd544589f27acba7551e0191c0
   1.8.3-3:
     Filename: eosio-mv-183_1.8.3-3_amd64.deb
     Size: "64950608"

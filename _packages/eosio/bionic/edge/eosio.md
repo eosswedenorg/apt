@@ -3,6 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: edge
+Conflicts: wax, bos
 Depends:
   - libc6
   - libgcc1
@@ -21,6 +22,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  2.0.0-rc3:
+    Filename: eosio_2.0.0-rc3_amd64.deb
+    Size: "37761448"
+    MD5sum: 79014c9d7eb9d333c4608478bcbcc817
+    SHA1: 92098be222442be8dfe443abb34e3570e32feaa5
+    SHA256: 910f93466d608620083f37d2bf3a159ee23c44852cbeb3bb50a3f0adee0b9129
+    SHA512: d08e659278f8f23fac8b216ae537367c0acf69c748394169e4913774badb7915017a99c000fbefd683d92d78f2737a284eefa11e2214b03e9ad963a76f6a7534
   2.0.0-rc2:
     Filename: eosio_2.0.0-rc2_amd64.deb
     Size: "37758980"
