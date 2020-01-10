@@ -5,6 +5,7 @@ Archive: bionic
 Component: stable
 Depends:
   - libssl1.1
+  - libc6
 Description: Keygenerator for EOSIO
 Homepage: https://github.com/eosswedenorg/eosio-keygen
 Maintainer: Henrik Hautakoski <henrik@eossweden.org>
@@ -13,6 +14,13 @@ Priority: optional
 Repo: main
 Section: misc
 Versions:
+  0.1.1-2:
+    Filename: eosio-keygen_0.1.1-2_amd64.deb
+    Size: "24332"
+    MD5sum: 159a80c61f917a41a595a4c96d1aef34
+    SHA1: 1ca99bf06c203f4864ec6b39c5359c2c23558538
+    SHA256: e86b339b7dfcc17fea5ef53eb4d0aafda33c33f2009c4265f87334a9d6b26fb2
+    SHA512: 4f50b26d6ff9065b19ca846fe1f846b56705bdd92ef0bc2e9c0b60b8a924d19b098fca942be9074ca1d1af5b7fe1d871f7cdce055a603679d99929151c48b0b7
   0.1.0-1:
     Filename: eosio-keygen_0.1.0-1_amd64.deb
     Size: "17756"
