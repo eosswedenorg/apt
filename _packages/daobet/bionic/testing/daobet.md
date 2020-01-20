@@ -3,6 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
+Conflicts: eos, wax, bos
 Depends:
   - libc6
   - libgcc1
@@ -21,6 +22,13 @@ Priority: optional
 Repo: daobet
 Section: devel
 Versions:
+  1.1.0-1:
+    Filename: daobet_1.1.0-1_amd64.deb
+    Size: "16392096"
+    MD5sum: 16bc43b1917b6d2ef9be85a87a923643
+    SHA1: 63849e875c9a92ca4c019704fda4ed5567655188
+    SHA256: 7d1bc0ccae1348493f559e3cf3128f5a31721e7eee9525d4158744fcf9d1fbd9
+    SHA512: eefe6fc61466233bd5c47b442cce5746e9b1ebbd8ffb28be470cac972fac99aa85fb74b5d0a11bd64eaadb16eca693a06afafd268c1272af718bd439ca4a1cee
   1.0.0-1:
     Filename: daobet_1.0.0-1_amd64.deb
     Size: "16394024"
