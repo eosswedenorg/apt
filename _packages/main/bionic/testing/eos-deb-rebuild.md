@@ -12,6 +12,13 @@ Priority: optional
 Repo: main
 Section: devel
 Versions:
+  0.2.0-1:
+    Filename: eos-deb-rebuild_0.2.0-1_all.deb
+    Size: "5396"
+    MD5sum: 95e159b2ebc61cb9eca98a9f5a7ecb5a
+    SHA1: dc11c314ac4e139650362cf9efabdccd90982891
+    SHA256: 28d781472b371237b668d4ccdc767c2eb58737569858ff1d6d1ea501d6af4a87
+    SHA512: e0e7432e865f4736deaeba57cecd4cab8d3a726a89dd36671a5b8fdf05748b342fecb7819ab4e67e28161e173fab67f7d1e258660b7a353da98301673c41049a
   0.1.0-1:
     Filename: eos-deb-rebuild_0.1.0-1_all.deb
     Size: "5368"
