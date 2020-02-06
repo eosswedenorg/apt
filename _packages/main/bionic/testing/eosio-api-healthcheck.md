@@ -12,11 +12,11 @@ Priority: optional
 Repo: main
 Section: introspection
 Versions:
-  0.1.1-1:
-    Filename: eosio-api-healthcheck_0.1.1-1_amd64.deb
-    Size: "2468744"
-    MD5sum: dea3bb4873e963fa4d091f8ff697c1d6
-    SHA1: 88962a218f9c951191fe9b287496048de9a30de9
-    SHA256: fd89bd1a7fa7ced5dad7d81a08ab684ccaf5e63bac9855497119bdb2249e2f4a
-    SHA512: 6e06a4aa2b06da3e47418e047c97ff12773e7d0f1928ec171e237147214593682b1790f2dc45b47aeef5fa49c688ab3dd80d3931119d9d9b865fcc6716aaaa4a
+  0.1.2-1:
+    Filename: eosio-api-healthcheck_0.1.2-1_amd64.deb
+    Size: "2467016"
+    MD5sum: 8b0e6d8657846169311706925459f9c4
+    SHA1: a085e7d558fd8447c802761b6f0ffd5e90f0bfe2
+    SHA256: 96e99620513e1907bb62bfca05c89e5763f322f4c5bdaa77d213843cdea20193
+    SHA512: 87ffed057ed8f13972ebf659eae45734d825ba6db75ec32fe6ab9ccd86fa04a8d784601279cf3ec808f4253d7fc9651dfacb5a662d902d96bf6f93ee7cbc34f8
 ---
