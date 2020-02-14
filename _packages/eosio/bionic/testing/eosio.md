@@ -22,6 +22,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  2.0.3-2:
+    Filename: eosio_2.0.3-2-ubuntu-18.04_amd64.deb
+    Size: "37777872"
+    MD5sum: aa7b5dfbb8c3bcfc7e8a817ed742827d
+    SHA1: d91943781dc778cb2cd66dc929bc151637d55f04
+    SHA256: 78da80acf7e48856481ec1cb03a4cfe466d1b8876dc655bdf02cb34c0bc83a8a
+    SHA512: c9666a5d10933fd45db6842204bb5574ee758613a8e3656f39c74de18329ae973cd0903984c6a721309f900b01fb9b52aed7a0ee3ec9b9548a8f2e7ac2dc7519
   2.0.3-1:
     Filename: eosio_2.0.3-1-ubuntu-18.04_amd64.deb
     Size: "38349988"
@@ -36,6 +43,13 @@ Versions:
     SHA1: e9e9457f06a0e6f23f003f10bdf470554aca0276
     SHA256: 9d8d8ab16b9fcf7a57cd2fffed4c428b482d96d4d17c3d87bb75f22ebd95f9bf
     SHA512: b8071fcc8a6089d70dd42d5e6602eb7893f21bf2e119976829841f2611120cd99186b2b2dcc2b3117f0b04c244bc6d19f1850597998f0a6370ae85bac4fe4ebc
+  1.8.12-1:
+    Filename: eosio_1.8.12-1-ubuntu-18.04_amd64.deb
+    Size: "12236860"
+    MD5sum: 5f388e4e943c1548c61f823744f914fa
+    SHA1: ba3a89118cf9b24d11bd927731e989d7c88751cc
+    SHA256: 70879c37d2a78ec60f0a85baaafe6e59378184d18be355d8cf9a269e75987c2e
+    SHA512: e5dd9c69bd6edffc792e777e40b751de7377aa9c02230977cc8e0a488282683088f6e88b8ae56f0f5d1e913624c585da4b524055183177a36a3006ba8babb068
   1.8.11-1:
     Filename: eosio_1.8.11-1-ubuntu-18.04_amd64.deb
     Size: "12232776"

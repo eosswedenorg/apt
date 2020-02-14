@@ -3,7 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
-Conflicts: eosio, wax
+Conflicts: eosio, wax, daobet
 Depends:
   - libbz2-dev (>= 1.0)
   - libssl-dev (>= 1.0)
@@ -20,6 +20,13 @@ Priority: optional
 Repo: bos
 Section: devel
 Versions:
+  3.0.5-1:
+    Filename: bos_3.0.5-1-ubuntu-18.04_amd64.deb
+    Size: "13792112"
+    MD5sum: 3c1570ca9f1f368cae2b500caf802dec
+    SHA1: 5fa8b5b8b35de9992838b84b873056a66759a5fa
+    SHA256: 89be8db0fa8cf8837d695875a2e853ef8567a7687292dff51eff86382d43ca8d
+    SHA512: 45784f80b31e4673245d48a88de85c7c1b7e130c773b389ecdf6ac7bd7480fa1af96c5f548de09f45cda749518dc407c91929c3c741f63f7e03126ea3d538da1
   3.0.4-1:
     Filename: bos_3.0.4-1_amd64.deb
     Size: "16483100"
