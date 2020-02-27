@@ -1,5 +1,6 @@
 {% assign domain = include.domain | default: site.apt.domain %}
+{% assign dist = include.distribution | default: "bionic" %}
 {% highlight bash %}
-$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ domain }}/{{ include.repo }} bionic {{ include.components }}' {% if include.update == true %}
+$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ domain }}/{{ include.repo }} {{ dist }} {{ include.components }}' {% if include.update == true %}
 $ sudo apt-get update{% endif %}
 {% endhighlight %}
