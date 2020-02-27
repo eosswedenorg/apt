@@ -14,11 +14,11 @@ Priority: optional
 Repo: main
 Section: misc
 Versions:
-  1.0-1:
-    Filename: eosio-keygen_1.0-1-ubuntu-18.04_amd64.deb
-    Size: "45576"
-    MD5sum: 5b6ec92c2448e7ce9d9f716321f37c40
-    SHA1: a114027c732b2123c732c772dc4594f7b0210263
-    SHA256: 463715855c4751874625e012029ced5c563ee62ebbf8feabc2d5d0c605107650
-    SHA512: ef0241b7be4fad886795fb5a105209b829b701fe525122c0e15be8ab244bca4d09a456e53be107b9ed53060ef156318ca7a30468d0421170b60f491c36ab154f
+  1.0.1-1:
+    Filename: eosio-keygen_1.0.1-1-ubuntu-18.04_amd64.deb
+    Size: "46408"
+    MD5sum: cf1b7924dab3faf9ff5b23f17554591a
+    SHA1: 865f8ea7e91a4ced9a289eaa321ac0a23ea954c5
+    SHA256: 12eaa8289fd6c02a4d8aa1636664da6468e0b3cf6da526e685abe16c90f9a012
+    SHA512: 72850a12416d6a59192cf4b71b56bd781b38877a8ead65d49fd4e30fad209123fc1f9ec00cc4b6c0dca12b14026e964de9258b08c1aad766985d612d390a46ed
 ---
