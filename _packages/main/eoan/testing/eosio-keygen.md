@@ -14,6 +14,13 @@ Priority: optional
 Repo: main
 Section: misc
 Versions:
+  1.0.1-1:
+    Filename: eosio-keygen_1.0.1-1-ubuntu-19.10_amd64.deb
+    Size: "47932"
+    MD5sum: de6447afd37106f469a3b217a5be56c0
+    SHA1: 0d63e613f464c72516b1ca8f6afaba42999601e5
+    SHA256: 833b52bac72b70a3dab1f32b47ceb87c3eec87c8b6cad90bfae4b4c29fde8399
+    SHA512: 1e8a93539dfee10670a6bdf0c4ad13e67d22535b6a5a872f2dcb890750f5bf5132a75d9ac6c20da24ddc3b8e0744d3ece3ba55e887a16543b4ac0629f08ef6e4
   1.0-1:
     Filename: eosio-keygen_1.0-1-ubuntu-19.10_amd64.deb
     Size: "46904"
