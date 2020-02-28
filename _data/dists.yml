@@ -1,6 +1,6 @@
 
 bionic:
-    version: 18.04
+    version: "18.04"
 
 eoan:
-    version: 19.10
+    version: "19.10"
