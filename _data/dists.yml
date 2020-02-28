@@ -1,0 +1,6 @@
+
+bionic:
+    version: 18.04
+
+eoan:
+    version: 19.10
