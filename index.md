@@ -21,10 +21,10 @@ Then you can add one or more of your repositories:
 The url is structures as follows:
 
 ```html
-https://{{ site.apt.domain }}/<repository> bionic <component> [ <component1> ] [ <componentN> ]
+https://{{ site.apt.domain }}/<repository> <distribution> <component> [ <component1> ] [ <componentN> ]
 ```
 
-one `repository` and one or more `components` needs to be specified. These are explained below.
+one `repository`, `distribution` and one or more `components` needs to be specified. These are explained below.
 
 
 ## Contents
@@ -38,9 +38,26 @@ Here is a list of different repositories we provide.
 * [{{ repo.title }}]({{ repo.url | relative_url }}) - {{ repo.description }}
 {% endfor %}
 
+### Distributions
+
+Each repository is divided into one or more distributions that contains packages specific for each ubuntu version.
+
+You can run `lsb_release -cr` to see what ubuntu version you are running on.
+
+Here is a list of supported distributions:
+
+| id      | Codename   | Version   |
+| :------ | :--------- | :-------- |
+{% for dist in site.data.dists -%}
+| {{ dist[0] }} | {{ dist[1].codename_full }} | {{ dist[1].version }} |
+{% endfor %}
+
+*NOTE:* Not all repositories have all distributions. check the links in the
+repository table to see what distributions are available for each repository.
+
 ### Components
 
-Each repository has 3 different components described below.
+Each repository/distribution pair has 3 different components described below.
 
 | Name    | Description                                                                                                |
 | ------- | ---------------------------------------------------------------------------------------------------------- |
@@ -50,10 +67,14 @@ Each repository has 3 different components described below.
 
 ## Example
 
-To add the `stable` `eosio` repository the following command will do:
+To add the `stable` `eosio` repository on a ubuntu 18.04 `bionic` system the following command will do:
 
-{% include apt-add.html repo="eosio" components="stable" %}
+{% include apt-add.html repo="eosio" distribution="bionic" components="stable" %}
 
 To add both `edge` and `stable` components for the `main` repository:
 
-{% include apt-add.html repo="eosio" components="stable edge" %}
+{% include apt-add.html repo="eosio" distribution="bionic" components="stable edge" %}
+
+Same as previous example, but we are on a ubuntu 19.10 `eoan` system:
+
+{% include apt-add.html repo="eosio" distribution="eoan" components="stable edge" %}
