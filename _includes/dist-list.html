@@ -1,0 +1,6 @@
+{%- capture out -%}
+{%- for i in include.list -%}
+, <a href="{{include.baseurl}}/{{ i.name }}">{{ i.name }}</a>
+{%- endfor -%}
+{%- endcapture -%}
+{{ out | remove_first: ", " | trim }}
