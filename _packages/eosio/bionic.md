@@ -1,4 +1,4 @@
 ---
 layout: dist
-title: "eosio/eoan"
+title: "eosio/bionic"
 ---
