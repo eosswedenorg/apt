@@ -12,6 +12,6 @@ layout: default
 <ul>
 {% for dist in dists %}
 	{% assign info = site.data.dists[dist.name] %}
-	<li><a href="{{ page.url | replative_url }}/{{ dist.name }}">{{ dist.name }} {{ info.version }}</a> - {{ dist.items.size }} Packages</li>
+	<li><a href="{{ page.url | relative_url }}/{{ dist.name }}">{{ dist.name }} {{ info.version }}</a> - {{ dist.items.size }} Packages</li>
 {% endfor %}
 </ul>
