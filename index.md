@@ -20,7 +20,7 @@ Then you can add one or more of your repositories:
 
 The url is structures as follows:
 
-```
+```html
 https://{{ site.apt.domain }}/<repository> bionic <component> [ <component1> ] [ <componentN> ]
 ```
 
