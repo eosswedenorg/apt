@@ -1,5 +1,5 @@
 {% assign domain = include.domain | default: site.apt.domain %}
-{% assign dist = include.distribution | default: "bionic" %}
+{% assign dist = include.distribution | default: "`lsb_release -cs`" %}
 {% highlight bash %}
 $ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ domain }}/{{ include.repo }} {{ dist }} {{ include.components }}' {% if include.update == true %}
 $ sudo apt-get update{% endif %}
