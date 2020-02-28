@@ -73,7 +73,7 @@ To add the `stable` `eosio` repository on a ubuntu 18.04 `bionic` system the fol
 
 To add both `edge` and `stable` components for the `main` repository:
 
-{% include apt-add.html repo="eosio" distribution="bionic" components="stable edge" %}
+{% include apt-add.html repo="main" distribution="bionic" components="stable edge" %}
 
 Same as previous example, but we are on a ubuntu 19.10 `eoan` system:
 
