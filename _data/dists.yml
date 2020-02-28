@@ -1,6 +1,8 @@
 
 bionic:
     version: "18.04"
+    codename_full: "Bionic Beaver"
 
 eoan:
     version: "19.10"
+    codename_full: "Eoan Ermine"
