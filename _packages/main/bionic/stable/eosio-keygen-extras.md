@@ -3,15 +3,24 @@
 Architecture: all
 Archive: bionic
 Component: stable
-Depends: []
-Description: Extra files for eosio-keygen
+Depends:
+  - eosio-keygen
+Description: extra files for eosio-keygen
 Homepage: https://github.com/eosswedenorg/eosio-keygen
+Installed-Size: "913"
 Maintainer: Henrik Hautakoski <henrik@eossweden.org>
 Name: eosio-keygen-extras
 Priority: optional
 Repo: main
-Section: misc
+Section: extras
 Versions:
+  0.1.0-2:
+    Filename: eosio-keygen-extras_0.1.0-2_all.deb
+    Size: "244604"
+    MD5sum: 4729d1870ce7e794f51ecb732afedfd3
+    SHA1: 73948133de3398d27734debc7517394d2b79ea5a
+    SHA256: ab9ffb031d2e974729c662735927cf65bb47714377259d637bfd37f60b814022
+    SHA512: b8b6a4444fd36de7c2bfa8a14140c83b295b2342e30c261f6439985becea42f1fab60fc8e7a2d7344af8748015bc9f5b53f772bf0fec8b498354af91f553fc8a
   0.1.0-1:
     Filename: eosio-keygen-extras_0.1.0-1.deb
     Size: "188944"
