@@ -20,6 +20,13 @@ Priority: optional
 Repo: bos
 Section: devel
 Versions:
+  3.0.6-1:
+    Filename: bos_3.0.6-1-ubuntu-18.04_amd64.deb
+    Size: "8134260"
+    MD5sum: 1bb89a6fa2f651b2bdb3118dd2975887
+    SHA1: 3e586be3ef6d665c5012d6aa4cd4e5ea4038c9db
+    SHA256: a3860567788e718718488ab64fe77c81a553304453717690bcb3c94fbb3ff5f3
+    SHA512: 7fdde7bc1af17b8468e3ead63d76f8b480c8bc3deeb1f931429c8716a5f9a0df8323f2dc08dad825072ffbd3fce2d161569a03cc953083386bb6e99a9d782d13
   3.0.5-1:
     Filename: bos_3.0.5-1-ubuntu-18.04_amd64.deb
     Size: "13792112"
