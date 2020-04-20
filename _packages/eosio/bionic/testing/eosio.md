@@ -22,6 +22,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  2.0.4-patch1:
+    Filename: eosio_2.0.4-patch1_amd64.deb
+    Size: "37856108"
+    MD5sum: f28b037c755e40f799660bca4f743d0c
+    SHA1: 3f8921494b0c7d3fbe9eca7ebc6e49a9d189b491
+    SHA256: 72716d641f03a7ada34562f0d3895d3ae6e69fd31b41a3d26e8d890ff275276f
+    SHA512: d7beb75d60f2550f209a3308a6915dd07c48cb3bb7312e0af5b16d8e3529ddd8ca427010ba354347de619737ce1f9af03e27cd234a7086175b0be72b6f3355fb
   2.0.4-1:
     Filename: eosio_2.0.4-1-ubuntu-18.04_amd64.deb
     Size: "37853288"
