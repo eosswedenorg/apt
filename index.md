@@ -33,11 +33,4 @@ Here is a list of different repositories we provide.
 
 ### Repositories
 
-| Name | Distributions | Description |
-| :--- | :------------ | :---------- |
-{%- assign repos = site.repos | sort: 'sequence' -%}
-{%- for repo in repos -%}
-	{%- assign url = repo.url | relative_url -%}
-	{%- assign dists = site.packages | where: 'Repo', repo.slug | group_by: 'Archive' %}
-| [{{ repo.title }}]({{ url }}) | {% include dist-list.html baseurl=url list=dists %} | {{ repo.description }} |
-{%- endfor %}
+{% include repo-table.html %}
