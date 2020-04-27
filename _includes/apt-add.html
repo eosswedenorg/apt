@@ -1,6 +1,6 @@
-{% assign domain = include.domain | default: site.apt.domain %}
-{% assign dist = include.distribution | default: "`lsb_release -cs`" %}
+{% assign apt-add_domain = include.domain | default: site.apt.domain %}
+{% assign apt-add_dist = include.distribution | default: "`lsb_release -cs`" %}
 {% highlight bash %}
-$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ domain }}/{{ include.repo }} {{ dist }} {{ include.components }}' {% if include.update == true %}
+$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} {{ apt-add_dist }} {{ include.components }}' {% if include.update == true %}
 $ sudo apt-get update{% endif %}
 {% endhighlight %}
