@@ -7,7 +7,9 @@ layout: default
 
 <h2>{{ page.title }} repository</h2>
 
-<p>Choose your ubuntu version below</p>
+{% include setup-instructions.html repo=id %}
+
+<h2>Choose your ubuntu version below</h2>
 
 <ul>
 {% for dist in dists %}

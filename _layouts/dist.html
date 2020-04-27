@@ -9,14 +9,13 @@ layout: default
 {% assign domain = repo_info.domain | default: site.apt.domain %}
 {% assign list = site.packages | where: 'Repo', repo | where: 'Archive', dist %}
 
-<p>
-    NOTE: If this is your first time here, you need to do some configurations before you can use this repository.
-    Please read the <a target="_blank" href="{{ "/#setup" | absolute_url }}">instructions</a>.
-</p>
-
 <h2>{{ repo }} - {{ dist }}</h2>
 
 <p>{{ repo_info.description }}</p>
+
+{% include setup-instructions.html repo=repo distribution=dist collapse=true %}
+
+<h2>Packages</h2>
 
 {% for component in site.apt.components %}
 
