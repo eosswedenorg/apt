@@ -1,8 +1,22 @@
 
 anchors.add();
 
-// adapted from https://stackoverflow.com/a/48078807/1217368
+
 $(document).ready(function() {
+
+	$('.collapse-trigger').click(function() {
+
+		var target_id = $(this).attr('data-target');
+
+		if (target_id) {
+			var target = $(document).find('#' + target_id);
+
+			$(target).toggleClass('collapsed');
+		}
+	});
+
+
+	// adapted from https://stackoverflow.com/a/48078807/1217368
 	$('.highlight > pre').each(function(i) {
 		if (!$(this).parent().hasClass('no-select-button')) {
 
