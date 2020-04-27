@@ -1,0 +1,40 @@
+
+{% assign setup-instructions_repo = include.repo | default: eosio %}
+{% assign setup-instructions_dist = include.distribution | default: "`lsb_release -cs`" %}
+
+{% if include.collapse %}
+<h2>Setup - <a href="#" class="collapse-trigger" data-target="setup-window">Show</a></h2>
+
+<div id="setup-window" class="collapsed">
+
+{% endif %}
+
+<p>First you need to make sure some packages are installed and that our <code>gpg</code> key is added to <code>apt</code>:</p>
+
+{% highlight bash %}
+$ sudo apt-get install software-properties-common
+$ curl https://{{ site.apt.domain }}/key 2> /dev/null | sudo apt-key add -
+{% endhighlight %}
+
+<p>Then you can add one or more of your repositories:</p>
+
+{% include apt-add.html
+	repo=setup-instructions_repo
+	distribution=setup-instructions_dist
+	components="stable"
+	update=true %}
+
+<p>The url is structures as follows:</p>
+
+{% highlight html %}
+https://{{ site.apt.domain }}/<repository> <distribution> <component> [ <component1> ] [ <componentN> ]
+{% endhighlight %}
+
+<p>
+	one <code>repository</code>, <code>distribution</code> and one or more <code>components</code> needs to be specified.
+	These are explained in detail <a href="{{ "/help" | absolute_url }}">here</a>
+</p>
+
+{% if include.collapse %}
+</div>
+{% endif %}
