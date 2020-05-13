@@ -16,12 +16,19 @@ Depends:
   - libcurl3-gnutls
 Description: blockchain software
 Homepage: https://github.com/DaoCasino/DAObet
-Maintainer: hello@mixbytes.io
+Maintainer: info@dao.group
 Name: daobet
 Priority: optional
 Repo: daobet
 Section: devel
 Versions:
+  2.0.0-1:
+    Filename: daobet_2.0.0-1_amd64.deb
+    Size: "68703172"
+    MD5sum: c6186b7a68987dcf91e4b26c5a6dc910
+    SHA1: c38cf7d7095ce1387aeec7bfbbe9a7a3c9c677de
+    SHA256: c2aafef404d2076f9f8476ac459756a5b371c8b99a268e2421877aee30d899e3
+    SHA512: f7adbc714f0fccae3961c5cbd5767367b685f42a988fa3b8b5e58412df227c2d75379920d25349ddbc609a913cd50a558e022702a535ef75f165e0d091fdd23d
   1.1.0-1:
     Filename: daobet_1.1.0-1_amd64.deb
     Size: "16392096"
