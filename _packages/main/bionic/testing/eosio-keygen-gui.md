@@ -18,6 +18,13 @@ Priority: optional
 Repo: main
 Section: misc
 Versions:
+  1.0.6-1:
+    Filename: eosio-keygen-gui-1.0.6-1-ubuntu-18.04_amd64.deb
+    Size: "60934"
+    MD5sum: 6b24750a82c958ca7454c640b1d6492c
+    SHA1: 2c553e3dafb45bfd1bbaf22bfec0e9ff3121f5a1
+    SHA256: 5a7710fa07f8996be8e71e874a08ed01245331e80e31de62c6fc38dcd0432d98
+    SHA512: a34c3252e1437da0fe80e124fc14d5806b095b00b95895184f990b9bdc0f7efff1974dcf34906f2746ad1ea84166e96476e72ca7195358c1d52520d1b49e1af9
   1.0.5-1:
     Filename: eosio-keygen-gui-1.0.5-1-ubuntu-18.04_amd64.deb
     Size: "60934"
