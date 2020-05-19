@@ -23,12 +23,12 @@ Repo: daobet
 Section: devel
 Versions:
   2.0.0-1:
-    Filename: daobet_2.0.0-1_amd64.deb
-    Size: "68703172"
-    MD5sum: c6186b7a68987dcf91e4b26c5a6dc910
-    SHA1: c38cf7d7095ce1387aeec7bfbbe9a7a3c9c677de
-    SHA256: c2aafef404d2076f9f8476ac459756a5b371c8b99a268e2421877aee30d899e3
-    SHA512: f7adbc714f0fccae3961c5cbd5767367b685f42a988fa3b8b5e58412df227c2d75379920d25349ddbc609a913cd50a558e022702a535ef75f165e0d091fdd23d
+    Filename: daobet_2.0.0-1-ubuntu-18.04_amd64.deb
+    Size: "67057384"
+    MD5sum: a429e55c079fc93ee00a3e1fbb5590ba
+    SHA1: 5c6f7e2dfbf6b8fb4c6f3a7058e46b3d1835f694
+    SHA256: 9f68bda4cf040e592ef688485e5a6873c07863d851abf35a304a3d206af498c3
+    SHA512: e4e7e16bc68f4535b5ff73344ef27d28965e31644a5b9c894a7d589efc0c17aa592a73382410f6dbc7af182d65673f3e5f97381c72aee79d6782e57d64aa01d2
   1.1.0-1:
     Filename: daobet_1.1.0-1_amd64.deb
     Size: "16392096"
