@@ -16,16 +16,16 @@ Depends:
 Description: Software for the FIO network
 Homepage: https://github.com/fioprotocol/fio
 Maintainer: getinfo@fio.foundation
-Name: fio
+Name: fio-mv-103
 Priority: optional
 Repo: fio
 Section: devel
 Versions:
   1.0.3-1:
-    Filename: fio_1.0.3-1_amd64.deb
-    Size: "13043296"
-    MD5sum: 07c1e2e9fa1c0b4c30015c18c3528610
-    SHA1: 80411407352579b2fb90901e68a13592d9e24209
-    SHA256: 9680dac298bc420fa61cb9f84a0f7f5ee8a5733286595635a87a2df03a89597f
-    SHA512: d1b5f9378f36bcac2ade9361b7d7ed30dde49967b5668b0460fdff75e007f8e3b9b4d55c4e433078aeae3442b487c8fd98f27d6ec83d5ff95f64b9dee31cb662
+    Filename: fio-mv-103_1.0.3-1_amd64.deb
+    Size: "13047024"
+    MD5sum: ec489549bfb3f2e003b90ce76b6f3c0a
+    SHA1: 09d93ebbd03a44d9efcd5ebd81b01bd09466a8cd
+    SHA256: 8e41ba0b025c0fcd5c564361b4e5aaaca068dbaab786804f299d783e00db0f24
+    SHA512: 482b7ea4e1b42650b50a3b4de6abdd086314cde42e5f5fc3be2390120e3b93503f4652a41217e898644616b647e6241111afde700719f90fd182e6155a8e9392
 ---
