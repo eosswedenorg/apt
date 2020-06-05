@@ -1,5 +1,5 @@
 
-{% assign setup-instructions_repo = include.repo | default: eosio %}
+{% assign setup-instructions_repo = include.repo | default: "eosio" %}
 {% assign setup-instructions_dist = include.distribution | default: "`lsb_release -cs`" %}
 
 {% if include.collapse %}
