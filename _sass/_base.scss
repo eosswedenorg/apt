@@ -7,6 +7,27 @@ figure {
     margin: 1em 0 !important;
 }
 
+.header {
+	@extend .clearfix;
+	padding-bottom: $spacer-2;
+	margin-bottom: $spacer-4;
+	border-bottom: solid 1px $border-gray-light;
+
+	&-title {
+		@extend .float-left;
+		border: 0 !important;
+	}
+
+	&-links {
+		@extend .float-right;
+		list-style: none;
+		margin: $spacer-2 0;
+		li {
+			display: inline-block;
+		}
+	}
+}
+
 .footer {
     margin-top: 3em;
     padding: 1em;
