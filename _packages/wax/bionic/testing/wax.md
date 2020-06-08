@@ -22,6 +22,13 @@ Priority: optional
 Repo: wax
 Section: devel
 Versions:
+  2.0.6-1:
+    Filename: wax_2.0.6-1-ubuntu-18.04_amd64.deb
+    Size: "45525308"
+    MD5sum: 7134c2e76a4b0bd973958addb4f0120e
+    SHA1: d053325b31a5ac60784b1aa6a2410c3125d34f5d
+    SHA256: 547a76a819ffa8558604e2031e3f995927a68b592df2ff6e7e0c72017a021d69
+    SHA512: 03653ec0d299e6ef9c86eafc2f762276648dc7998a43e79091b62a581659b28d0840e864885bce290759141ed1c631d1cd2380fa51492b70112134d3a2e0aab8
   2.0.5-zmq-1:
     Filename: wax_2.0.5-zmq-1-ubuntu-18.04_amd64.deb
     Size: "45435480"
