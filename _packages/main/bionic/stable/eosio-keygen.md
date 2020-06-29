@@ -4,16 +4,38 @@ Architecture: amd64
 Archive: bionic
 Component: stable
 Depends:
-  - libssl1.1
-  - libc6
+  - libssl1.1 (>= 1.1.0)
+  - libstdc++6 (>= 6)
 Description: Keygenerator for EOSIO
 Homepage: https://github.com/eosswedenorg/eosio-keygen
+Installed-Size: "111"
 Maintainer: Henrik Hautakoski <henrik@eossweden.org>
 Name: eosio-keygen
 Priority: optional
 Repo: main
 Section: misc
 Versions:
+  1.0.6-1:
+    Filename: eosio-keygen-1.0.6-1-ubuntu-18.04_amd64.deb
+    Size: "36174"
+    MD5sum: fb1a7b87cc34ab2560d6fb08e453267f
+    SHA1: 4b4de04f9e113541a0df84ad85641ee623d20628
+    SHA256: 67017d52e2d240f98637584f9efb9afd367e115301681fb06de96b313ef263e2
+    SHA512: 477e9abd8ea480af4fb988a1fa7544ada37ff23bd93ac8985c7e1972b77eb5f2256c2be9698070577607a0f372559cac53176623084c0c83bc0682a636a63c91
+  1.0.5-1:
+    Filename: eosio-keygen-1.0.5-1-ubuntu-18.04_amd64.deb
+    Size: "36014"
+    MD5sum: 58f03c7307c3292b7572b064fc105e2c
+    SHA1: 66636d91f8d69c828293f3141be101c34f590dac
+    SHA256: 46008b5e989c2704a2181728d912bbed6093ed435893d61c354bed96824bf3c2
+    SHA512: ee192f0885c3c913ecfc42232e47772d4b942f9d4569cdc510fd27553bb22186ea88404859701a1c1a24be0c3a889f0c6b3e1656bd7d25397d3620afb7a08f20
+  1.0.4-1:
+    Filename: eosio-keygen-1.0.4-1-ubuntu-18.04_amd64.deb
+    Size: "37848"
+    MD5sum: 00b4ce1a7c1e3f8d5e715d3725db0321
+    SHA1: 1dbdce175a0e7e2225126edab455875e8efe2717
+    SHA256: a7b5206d5c770e5df6c9cb1d7dd01047c1e5449601ab8b7ea26bfa59369e1559
+    SHA512: 187773d836e430bf4d9707813bb0826610f57a38b6eb6ee87208aa6cdc53b353453189960c004413cdfbca3d3871432a0a25f64aad62a8eea163eb080cb1a167
   1.0.3-1:
     Filename: eosio-keygen_1.0.3-1-ubuntu-18.04_amd64.deb
     Size: "47084"
