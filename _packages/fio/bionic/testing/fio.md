@@ -3,6 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
+Conflicts: eosio, bos, daobet, wax, uos
 Depends:
   - libc6
   - libgcc1
@@ -21,11 +22,18 @@ Priority: optional
 Repo: fio
 Section: devel
 Versions:
-  1.0.3-1:
-    Filename: fio_1.0.3-1_amd64.deb
-    Size: "13043296"
-    MD5sum: 07c1e2e9fa1c0b4c30015c18c3528610
-    SHA1: 80411407352579b2fb90901e68a13592d9e24209
-    SHA256: 9680dac298bc420fa61cb9f84a0f7f5ee8a5733286595635a87a2df03a89597f
-    SHA512: d1b5f9378f36bcac2ade9361b7d7ed30dde49967b5668b0460fdff75e007f8e3b9b4d55c4e433078aeae3442b487c8fd98f27d6ec83d5ff95f64b9dee31cb662
+  1.1.0-1:
+    Filename: fio_1.1.0-1-ubuntu-18.04_amd64.deb
+    Size: "13097192"
+    MD5sum: 53d26c53be415a0ea34e9c11cb8e8065
+    SHA1: ddfc662fc20b0c7a37549df52e853ca50983aa93
+    SHA256: 1d44114e53ee740530ce523a9de5d23adcacfd186528c80ecba636688dc3fdb7
+    SHA512: 2d828b6b3a36e477612c3bec9aa7998fb09c017efcb19f4412e3099af571e03dc018c7bac792f63d0968707d3533eb94347fb95d6cc5e7111793c52bebf45371
+  1.0.5-1:
+    Filename: fio_1.0.5-1-ubuntu-18.04_amd64.deb
+    Size: "13051212"
+    MD5sum: 507ca150626a52830bfcb67543b2ac7b
+    SHA1: 87e5414844a01e67307ddc07ffa6a02a8c2dfaed
+    SHA256: 77af240b697159a543f6f8ba6d7f131c1045bf5babe4bd1007ea0c2de288c172
+    SHA512: c4c4e026298c851990a9c4d14284fbc35400c3a81c7c8ab0e908b0ee599ef29db27a57cb5ce41086a767734f13085ca879a959d8bcb0bbacd7d6201c7fd37c0f
 ---
