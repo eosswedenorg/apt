@@ -3,7 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
-Conflicts: eosio, bos, daobet
+Conflicts: eosio, bos, daobet, uos
 Depends:
   - libc6
   - libgcc1
@@ -22,6 +22,13 @@ Priority: optional
 Repo: wax
 Section: devel
 Versions:
+  2.0.6wax02-sec:
+    Filename: wax_2.0.6wax02-sec-ubuntu-18.04_amd64.deb
+    Size: "45529884"
+    MD5sum: 4ad48d29d9e3788373cdb30a9ee946fb
+    SHA1: f534854c93e4dc8620c907bc4b401eaf7a793bce
+    SHA256: dcbc7947b23544a262e8f27f09af9a336ea73a0662e87ace42058ff4ddf74352
+    SHA512: b9611bb379d95b7a7f50c95d02e5ccb4264ff10ef5da2cd22dcc0a9550a0394bbc665971d8e66af6e2f73d04f2dc7897e9c3698674bbc570eaf5371f649a0d7b
   2.0.6wax02-1:
     Filename: wax_2.0.6wax02-1-ubuntu-18.04_amd64.deb
     Size: "45548332"
