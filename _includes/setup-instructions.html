@@ -1,6 +1,7 @@
 
 {% assign setup-instructions_repo = include.repo | default: "eosio" %}
 {% assign setup-instructions_dist = include.distribution | default: "`lsb_release -cs`" %}
+{% assign setup-instructions_domain = include.domain | default: site.apt.domain %}
 
 {% if include.collapse %}
 <h2>Setup - <a href="#" class="collapse-trigger" data-target="setup-window">Show</a></h2>
@@ -13,7 +14,7 @@
 
 {% highlight bash %}
 $ sudo apt-get install software-properties-common
-$ curl https://{{ site.apt.domain }}/key 2> /dev/null | sudo apt-key add -
+$ curl https://{{ setup-instructions_domain }}/key 2> /dev/null | sudo apt-key add -
 {% endhighlight %}
 
 <p>Then you can add one or more of your repositories:</p>
@@ -21,13 +22,14 @@ $ curl https://{{ site.apt.domain }}/key 2> /dev/null | sudo apt-key add -
 {% include apt-add.html
 	repo=setup-instructions_repo
 	distribution=setup-instructions_dist
+	domain=setup-instructions_domain
 	components="stable"
 	update=true %}
 
 <p>The url is structures as follows:</p>
 
 {% highlight html %}
-https://{{ site.apt.domain }}/<repository> <distribution> <component> [ <component1> ] [ <componentN> ]
+https://{{ setup-instructions_domain }}/<repository> <distribution> <component> [ <component1> ] [ <componentN> ]
 {% endhighlight %}
 
 <p>
