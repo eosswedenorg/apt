@@ -13,6 +13,13 @@ Priority: optional
 Repo: main
 Section: devel
 Versions:
+  0.1.5-1:
+    Filename: eos-cdt-select_0.1.5-1_all.deb
+    Size: "3380"
+    MD5sum: 95cf70a3f3a900cbc1f0618138b5086d
+    SHA1: f66c5018d9a9aa3fd104b083464afd18adedbd33
+    SHA256: 328ed26b8cc559f6bc0899cd13e9a465324f44003375d2e88a34a6ad8a3fb26c
+    SHA512: bf634482a5a071fda855282178ab0ff077ab0bbb444b0bde45d16cf6d50b4d7b9fe040aa36202c9f5b46dc391dbc093418761fba6c2209593594051f13b05e8e
   0.1.4-1:
     Filename: eos-cdt-select_0.1.4-1_all.deb
     Size: "3380"
