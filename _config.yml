@@ -23,6 +23,10 @@ defaults:
 apt:
   # Default APT domain.
   domain: apt.eossweden.org
+
+  # Default repo
+  repo: eosio
+
   # Staticly define the components and the order (most used ones first)
   components:
     - stable
