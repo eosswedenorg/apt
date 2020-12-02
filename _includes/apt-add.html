@@ -1,6 +1,14 @@
 {% assign apt-add_domain = include.domain | default: site.apt.domain %}
-{% assign apt-add_dist = include.distribution | default: "`lsb_release -cs`" %}
+{% assign apt-add_dist = include.distribution | default: "[[DEFAULT]]" %}
+
 {% highlight bash %}
-$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} {{ apt-add_dist }} {{ include.components }}' {% if include.update == true %}
+{% if include.distribution %}
+$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} {{ include.distribution }} {{ include.components }}'
+{% else %}
+# For Bash like shells.
+$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} `lsb_release -cs` {{ include.components }}'
+# If you are using fish
+$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }}' (lsb_release -cs) '{{ include.components }}'
+{% endif %}{% if include.update == true %}
 $ sudo apt-get update{% endif %}
 {% endhighlight %}
