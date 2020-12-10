@@ -3,12 +3,12 @@
 Architecture: amd64
 Archive: eoan
 Component: testing
-Conflicts: wax, bos, daobet
+Conflicts: wax, bos, uos, fio
 Depends:
   - libc6
   - libgcc1
   - libssl1.1
-  - libicu63
+  - libicu60
   - libstdc++6
   - libtinfo5
   - zlib1g
@@ -22,6 +22,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  2.0.8-sec:
+    Filename: eosio_2.0.8-sec-ubuntu-18.04_amd64.deb
+    Size: "45526620"
+    MD5sum: 2625be779c75c217454a7ba4215e45bb
+    SHA1: f77da65a3d0b9a46007313dcee36bc5365755246
+    SHA256: 2de4ff99a0a9ad3eabd103773bdbfe392aeeb7fdf13a24d812f19b450f94624a
+    SHA512: ae0373cc60d79f2e38cf576bb5febfe19b31c9a202628f0e2f8915e6ea10bd9232171053101ce5567f3e5dd56d997d8ad56f3d43ca8a382063fd96ab4eb71f14
   2.0.4-patch1:
     Filename: eosio_2.0.4-patch1-ubuntu-19.10_amd64.deb
     Size: "37716476"
