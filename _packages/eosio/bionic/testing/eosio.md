@@ -3,7 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
-Conflicts: wax, bos, daobet, uos
+Conflicts: wax, bos, uos, fio
 Depends:
   - libc6
   - libgcc1
@@ -22,6 +22,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  2.0.8-sec2:
+    Filename: eosio_2.0.8-sec2-ubuntu-18.04_amd64.deb
+    Size: "45540204"
+    MD5sum: 4124808f2067a6211f6cec326599e901
+    SHA1: 31ce9d993c729b43d147b6c11a67e7d4b4eaf683
+    SHA256: eff79b5966730d069444dccf910eaf27ef5974de226d4a5960d4c91b00525ca1
+    SHA512: d9fd3fdfdf9b4992376fb03ebe973f68119648b45ac863fdf338d3d6f61576b82a671d96231016c98afba53b7ec47e5fe5d84115004154d1befadf9f6b0cbd5b
   2.0.8-1:
     Filename: eosio_2.0.8-1-ubuntu-18.04_amd64.deb
     Size: "45538464"
