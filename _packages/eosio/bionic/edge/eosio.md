@@ -8,12 +8,12 @@ Depends:
   - libc6
   - libgcc1
   - libssl1.1
-  - libicu60
   - libstdc++6
   - libtinfo5
   - zlib1g
   - libusb-1.0-0
   - libcurl3-gnutls
+  - libpq5
 Description: Software for the EOS.IO network
 Homepage: https://github.com/eosio/eos
 Maintainer: support@block.one
@@ -22,6 +22,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  2.1.0-rc1:
+    Filename: eosio_2.1.0-rc1_ubuntu-18.04_amd64.deb
+    Size: "35561108"
+    MD5sum: 5108fa12725afe8c4375a4ff42bf6d46
+    SHA1: 847e91c43fcbe63a42ebb84bbaf20691601254fc
+    SHA256: 71c74ad0bca8fd4fffc3c1536571fd3f10488f495a3f0923cafe5cb728b51a07
+    SHA512: 43f79c4a72ef249eb6d485a1fe099403a32bb133b40c5e1a5fb58bb9ab06ae95d24fe32fdcec82d4a344d7cfb5c93146a79f017c76d10926aec8ab637a1a0f45
   2.0.0-rc3:
     Filename: eosio_2.0.0-rc3_amd64.deb
     Size: "37761448"
