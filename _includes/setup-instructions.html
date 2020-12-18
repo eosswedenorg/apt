@@ -1,6 +1,6 @@
 
 {% assign setup-instructions_repo = include.repo | default: site.apt.repo %}
-{% assign setup-instructions_dist = include.distribution %}
+{% assign setup-instructions_dist = include.distribution | default: site.apt.distribution %}
 {% assign setup-instructions_domain = include.domain | default: site.apt.domain %}
 
 {% if include.collapse %}
