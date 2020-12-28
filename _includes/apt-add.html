@@ -3,19 +3,19 @@
 
 {% if include.distribution %}
 {% highlight bash %}
-$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} {{ include.distribution }} {{ include.components }}'{% if include.update == true %}
-$ sudo apt-get update{% endif %}
+sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} {{ include.distribution }} {{ include.components }}'{% if include.update == true %}
+sudo apt-get update{% endif %}
 {% endhighlight %}
 {% else %}
 {% highlight bash %}
 # For Bash like shells.
-$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} `lsb_release -cs` {{ include.components }}'{% if include.update == true %}
-$ sudo apt-get update{% endif %}
+sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} `lsb_release -cs` {{ include.components }}'{% if include.update == true %}
+sudo apt-get update{% endif %}
 {% endhighlight %}
 
 {% highlight bash %}
 # If you are using fish
-$ sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }}' (lsb_release -cs) '{{ include.components }}'{% if include.update == true %}
-$ sudo apt-get update{% endif %}
+sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }}' (lsb_release -cs) '{{ include.components }}'{% if include.update == true %}
+sudo apt-get update{% endif %}
 {% endhighlight %}
 {% endif %}
