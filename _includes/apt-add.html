@@ -1,19 +1,29 @@
 {% assign apt-add_domain = include.domain | default: site.apt.domain %}
 
+{% if include.distribution != 'focal' %}
+<blockquote>
+	<h4>If you are on Ubuntu 20.04 (focal) do this</h4>
+	{% highlight bash %}
+wget http://mirrors.edge.kernel.org/ubuntu/pool/main/i/icu/libicu60_60.2-3ubuntu3.1_amd64.deb
+sudo dpkg -i ./libicu60_60.2-3ubuntu3.1_amd64.deb
+sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} bionic {{ include.components }}'{% endhighlight %}
+</blockquote>
+{% endif %}
+
 {% if include.distribution %}
 {% highlight bash %}
 sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} {{ include.distribution }} {{ include.components }}'{% if include.update == true %}
 sudo apt-get update{% endif %}
 {% endhighlight %}
 {% else %}
+<h4>For bash like shells.</h4>
 {% highlight bash %}
-# For Bash like shells.
 sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} `lsb_release -cs` {{ include.components }}'{% if include.update == true %}
 sudo apt-get update{% endif %}
 {% endhighlight %}
 
+<h4>If you are using fish</h4>
 {% highlight bash %}
-# If you are using fish
 sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }}' (lsb_release -cs) '{{ include.components }}'{% if include.update == true %}
 sudo apt-get update{% endif %}
 {% endhighlight %}
