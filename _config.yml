@@ -63,3 +63,4 @@ exclude:
   - package-lock.json
   - vendor
   - node_modules
+  - README.md
