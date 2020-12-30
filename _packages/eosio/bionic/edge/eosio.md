@@ -3,7 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: edge
-Conflicts: wax, bos
+Conflicts: wax, bos, uos, fio
 Depends:
   - libc6
   - libgcc1
@@ -22,6 +22,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  2.1.0-rc2:
+    Filename: eosio_2.1.0-rc2-ubuntu-18.04_amd64.deb
+    Size: "35560240"
+    MD5sum: ed6eb597771abecbe326ea3c008a09b4
+    SHA1: bffef629231dc6620bdb4b4f5e7e5ed141ff6be7
+    SHA256: 935bd8c1c84878ff22a36a4a8fa4cb6df6a55c0305c067c0f315a3eea8428d4a
+    SHA512: f9673a4a577c1108030565f2cdfc8c1ae40ef4c98ef7d6a96d6172aa2944b36053144e6cfffec6f8c0d60ff501e654bb7fc1cebc0d13f92cf9892e713e88af4f
   2.1.0-rc1:
     Filename: eosio_2.1.0-rc1_ubuntu-18.04_amd64.deb
     Size: "35561108"
