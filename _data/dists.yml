@@ -8,5 +8,5 @@ eoan:
     codename_full: "Eoan Ermine"
 
 focal:
-    version: "20.10"
+    version: "20.04"
     codename_full: "Focal Fossa"
