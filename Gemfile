@@ -9,4 +9,5 @@ gem "kramdown", ">= 2.3.0"
 # security vulnerability - https://github.com/advisories/GHSA-j96r-xvjq-r9pg
 gem "activesupport", ">= 4.1.11"
 
-
+# security vulnerability - https://github.com/advisories/GHSA-vr8q-g5c7-m54m
+gem "nokogiri", ">= 1.11.0.rc4"
