@@ -13,6 +13,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  1.7.0-2:
+    Filename: eosio.cdt-1.7_1.7.0-2_amd64.deb
+    Size: "111690388"
+    MD5sum: 89747a48b07eb677b3d889a7e8a50bd1
+    SHA1: c0f1e2904d1dacc59ec45459bae365d287c7a953
+    SHA256: 7c6abe44baa7b6ab83a6465fc6e705ee793736f4e7ba478e1e5188209927d215
+    SHA512: 98ac7a7f5dd571a0dcf2f65c303baf21a9c2cb61f85ad0c6027f18b98327082e6b556e79eda4d1ebad586b7df52205ded3a71c0e03907ab5fbd019d1f636d0b7
   1.7.0-1:
     Filename: eosio.cdt-1.7_1.7.0-1_amd64.deb
     Size: "111697172"
