@@ -10,7 +10,7 @@ Homepage: https://github.com/eosswedenorg/eos-deb-rebuild
 Maintainer: Henrik Hautakoski <henrik@eossweden.org>
 Name: eos-deb-rebuild
 Priority: optional
-Repo: eosio
+Repo: main
 Section: devel
 Versions:
   0.3.0-1:

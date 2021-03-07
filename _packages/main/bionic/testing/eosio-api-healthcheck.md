@@ -9,7 +9,7 @@ Homepage: https://github.com/eosswedenorg/eos-api-healthcheck
 Maintainer: Henrik Hautakoski <henrik@eossweden.org>
 Name: eosio-api-healthcheck
 Priority: optional
-Repo: eosio
+Repo: main
 Section: introspection
 Versions:
   0.3.5-1:
