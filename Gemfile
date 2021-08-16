@@ -11,3 +11,8 @@ gem "activesupport", ">= 4.1.11"
 
 # security vulnerability - https://github.com/advisories/GHSA-vr8q-g5c7-m54m
 gem "nokogiri", ">= 1.11.0.rc4"
+
+# security vulnerability - https://github.com/advisories/GHSA-jxhc-q857-3j6g
+gem "addressable", ">= 2.8.0"
+
+
