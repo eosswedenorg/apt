@@ -1,6 +1,6 @@
 ---
 layout: repo
-sequence: 7
+sequence: 6
 
 title: FIO
 domain: apt.eossweden.org

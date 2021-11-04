@@ -1,6 +1,6 @@
 ---
 layout: repo
-sequence: 5
+sequence: 4
 
 title: WAX
 domain: apt.waxsweden.org
