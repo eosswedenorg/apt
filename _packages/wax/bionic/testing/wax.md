@@ -22,6 +22,13 @@ Priority: optional
 Repo: wax
 Section: devel
 Versions:
+  2.0.12wax02-1:
+    Filename: wax_2.0.12wax02-1-ubuntu-18.04_amd64.deb
+    Size: "45577836"
+    MD5sum: 7880fb38bfe16f56e96fe04de6b5ddd6
+    SHA1: f18e8f8247f9b7bce8a67bff765528bfb0c24ef3
+    SHA256: dd8b74d84ea5af46f19100f0e426eb5c6457c4ba3677a1525f95d5eabc6b41ec
+    SHA512: baf3acd7b09681048d396968fba605ce43fb8443a0ce22f68f11df0b0945a94f5f753d20103a4c0e7a520d87ffba29b0f7f39452f843f5b1eaa64fdd1c551d44
   2.0.11wax01-strike:
     Filename: wax_2.0.11wax01-strike-ubuntu-18.04_amd64.deb
     Size: "45567556"
