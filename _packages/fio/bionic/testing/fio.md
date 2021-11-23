@@ -22,6 +22,13 @@ Priority: optional
 Repo: fio
 Section: devel
 Versions:
+  3.2.0-rc1:
+    Filename: fio_3.2.0-rc1-ubuntu-18.04_amd64.deb
+    Size: "12519372"
+    MD5sum: 1d960124e3dd9f6aa2d5d6697737d5e3
+    SHA1: effc8b985b8b77345ae4ee623d2c866f8785387e
+    SHA256: d27583f56f02e02ba188d4a44e861ef3124435f2333fe9d4c1525295035263ee
+    SHA512: 54403384595c0c5c69047ca064210f4c1791d96de66ed427a96d366cfc99d1ae91ae0635d8262b93953d0819839bcaf9f320ce078e856bf68ef444c5da67032b
   3.1.0-1:
     Filename: fio_3.1.0-1-ubuntu-18.04_amd64.deb
     Size: "12514372"
