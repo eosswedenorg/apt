@@ -15,6 +15,13 @@ Priority: optional
 Repo: main
 Section: utils
 Versions:
+  0.1.2-1:
+    Filename: eosio-proposal-tool_0.1.2-1_all.deb
+    Size: "2924"
+    MD5sum: 27b9dee8bc39a2d4dc71f03137ca36a8
+    SHA1: 50b5e620dcb5bdf7c33a27837d769466e6823533
+    SHA256: 1b3c831872c62fc1177cb6532e549e688427d32f7482f0e5d2d5b5ad5511187a
+    SHA512: 539256625a2d1a0cc3b61a8cec032dd3b0b6cd184c13baf275f55d7f00934392f507283fc4e61b59cf3da29af954c80a7e50865bf383400c77631d1358228d26
   0.1.1-1:
     Filename: eosio-proposal-tool_0.1.1-1_all.deb
     Size: "2920"
