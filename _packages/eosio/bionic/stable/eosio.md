@@ -8,12 +8,12 @@ Depends:
   - libc6
   - libgcc1
   - libssl1.1
-  - libicu60
   - libstdc++6
   - libtinfo5
   - zlib1g
   - libusb-1.0-0
   - libcurl3-gnutls
+  - libpq5
 Description: Software for the EOS.IO network
 Homepage: https://github.com/eosio/eos
 Maintainer: support@block.one
@@ -22,6 +22,13 @@ Priority: optional
 Repo: eosio
 Section: devel
 Versions:
+  2.1.0-1:
+    Filename: eosio_2.1.0-1-ubuntu-18.04_amd64.deb
+    Size: "35220356"
+    MD5sum: b2deaee2f18e96b5298b190ef974e93d
+    SHA1: a2e4c0ae9c2463f07c56d2161029badc499aee1a
+    SHA256: 360f69225a9a20e7ef3a1eeb89b9b147a594d5f50f8072faeede973da5e309c2
+    SHA512: 3f56bf9eacb4cac2b722cf858f0e4ca25063912183a7d3a0625a2c11a6235a1a2f9c1d6feac98f59b098facdede74b3c638c44422fac8e9394644f1921af423e
   2.0.13-1:
     Filename: eosio_2.0.13-1-ubuntu-18.04_amd64.deb
     Size: "45193640"
@@ -36,6 +43,13 @@ Versions:
     SHA1: 8ff07d93febb7e49e5f5a1aa60339a362352d3c7
     SHA256: cad92ebbed3399f2829596c0e953308871c7d76303996af2921061afacec2b81
     SHA512: 57cd20a456f8a5bfc9b4e8de6e82288dfa3ca4efb27668a41cae2dfcd1fa14de8baad8559afe3161cd06b7855e3390c340aed62e87a49cea4ebaf492ad7257d9
+  2.0.11-1:
+    Filename: eosio_2.0.11-1-ubuntu-18.04_amd64.deb
+    Size: "45556512"
+    MD5sum: aa9b2ef09c534b95729c2010b65cc005
+    SHA1: 0c1fc0a1362697c230c323cccf1ba686d47f287a
+    SHA256: 53b0d9c255f4036b2fddb2c7544672bc5124b9e659ed00f5ccaaa8249492bd69
+    SHA512: ff6ed4ae60fd10b8a80e758bef8995e358f2441694928b05eccf0ee6f6f620cffd07b8f7902b79dafaefcd5b8d471d7a19f7f421da8743109efb6d8d0f0488d5
   2.0.10-sec1-1:
     Filename: eosio_2.0.10-sec1-1-ubuntu-18.04_amd64.deb
     Size: "45554340"
