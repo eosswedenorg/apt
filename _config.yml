@@ -65,6 +65,7 @@ exclude:
   - vendor
   - node_modules
   - README.md
+  - _scripts/app.js
 
 # -----------------
 #  Misc
