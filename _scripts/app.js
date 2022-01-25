@@ -1,4 +1,7 @@
 
+import Alpine from 'alpinejs'
+import alpine_search from './js/alpine_search'
+
 anchors.add();
 
 
@@ -62,3 +65,10 @@ $(document).ready(function() {
 		}, 1000, tooltip);
 	});
 });
+
+// -------------------
+// Alpine
+// -------------------
+
+Alpine.data('searchComponent', alpine_search)
+Alpine.start()
