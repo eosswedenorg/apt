@@ -5,6 +5,31 @@
 	<h1 class="header-title"><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
 	{% endif %}
 
+    <div class="header-search search" x-data="searchComponent" @click.away="close()">
+
+        <input type="text" placeholder="search" x-model="query" @mousedown="open()" />
+
+        <div class="search-results" x-show="isOpen()" x-cloak>
+            <ul>
+                <template x-for="item in getResults" :key="item.id">
+                    <li>
+                        <div>
+                            <span>
+                                <a x-bind:href="item.url" class="search-results-name" x-text="item.name"></a>
+                                <span class="search-results-version">(<span x-text="item.version"></span>)</span>
+                            </span>
+
+                            <span class="search-results-archive">
+                                [<span x-text="item.archive"></span>:<span x-text="item.component"></span>]
+                            </span>
+                        </div>
+                        <span class="search-results-description" x-text="item.description"></span>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </div>
+
 	<ul class="header-links">
 		<li><a target="_blank" href="https://twitter.com/eossweden"><i class="fab fa-2x fa-twitter-square"></i></a></li>
 		<li><a target="_blank" href="https://www.facebook.com/EOS-sweden-554084258304426/"><i class="fab fa-2x fa-facebook-square"></i></a></li>
