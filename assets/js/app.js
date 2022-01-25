@@ -1,6 +1,7 @@
 
 import Alpine from 'alpinejs'
 import alpine_search from './modules/alpine_search'
+import ClipboardJS from 'clipboard'
 
 anchors.add();
 
