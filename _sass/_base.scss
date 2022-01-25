@@ -8,18 +8,24 @@ figure {
 }
 
 .header {
-	@extend .clearfix;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
 	padding-bottom: $spacer-2;
 	margin-bottom: $spacer-4;
 	border-bottom: solid 1px $border-gray-light;
 
 	&-title {
-		@extend .float-left;
 		border: 0 !important;
 	}
 
+    &-search {
+        flex:auto;
+        margin-right: $spacer-6;
+        margin-left: $spacer-6;
+    }
+
 	&-links {
-		@extend .float-right;
 		list-style: none;
 		margin: $spacer-2 0;
 		li {
