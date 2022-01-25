@@ -1,6 +1,6 @@
 
 import Alpine from 'alpinejs'
-import alpine_search from './js/alpine_search'
+import alpine_search from './modules/alpine_search'
 
 anchors.add();
 
