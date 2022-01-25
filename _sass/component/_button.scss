@@ -1,0 +1,15 @@
+
+.btn {
+
+    &:hover {
+        cursor: pointer;
+        color: $brand-color;
+    }
+
+    &-copy-code {
+        float: right;
+        .far, .fas {
+            color: $text-gray !important;
+        }
+    }
+}
