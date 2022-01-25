@@ -24,23 +24,6 @@ Alpine.start()
 
 
 // ------------------------------------------
-//  Collapse
-// ------------------------------------------
-
-$('.collapse-trigger').click(function() {
-
-    // Find target via "data-target" attribute.
-    var target_id = $(this).attr('data-target');
-
-    if (target_id) {
-        var target = $(document).find('#' + target_id);
-
-        // Toggle "collapsed" class on target.
-        $(target).toggleClass('collapsed');
-    }
-});
-
-// ------------------------------------------
 //  Copy code blocks to clipboard
 // ------------------------------------------
 
