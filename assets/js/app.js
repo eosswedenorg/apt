@@ -1,4 +1,5 @@
 
+import $ from 'jquery'
 import AnchorJS from 'anchor-js'
 import Alpine from 'alpinejs'
 import alpine_search from './modules/alpine_search'
