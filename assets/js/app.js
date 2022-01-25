@@ -3,6 +3,7 @@ import AnchorJS from 'anchor-js'
 import Alpine from 'alpinejs'
 import alpine_search from './modules/alpine_search'
 import ClipboardJS from 'clipboard'
+import tippy from 'tippy.js'
 
 // -------------------
 //  Anchor

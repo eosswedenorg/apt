@@ -66,3 +66,9 @@
  * Copyright (C) 2020 Oliver Nightingale
  * @license MIT
  */
+
+/**!
+* tippy.js v5.2.1
+* (c) 2017-2020 atomiks
+* MIT License
+*/
