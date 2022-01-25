@@ -3,6 +3,7 @@ import $ from 'jquery'
 import AnchorJS from 'anchor-js'
 import Alpine from 'alpinejs'
 import alpine_search from './modules/alpine_search'
+import alpine_collapse from './modules/alpine_collapse'
 import ClipboardJS from 'clipboard'
 import tippy from 'tippy.js'
 
@@ -17,6 +18,7 @@ anchors.add();
 //  Alpine
 // ------------------------------------------
 
+Alpine.data('collapse', alpine_collapse)
 Alpine.data('searchComponent', alpine_search)
 Alpine.start()
 
