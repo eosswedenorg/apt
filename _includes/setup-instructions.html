@@ -4,9 +4,10 @@
 {% assign setup-instructions_domain = include.domain | default: site.apt.domain %}
 
 {% if include.collapse %}
-<h2>Setup - <a href="#" class="collapse-trigger" data-target="setup-window">Show</a></h2>
+<div x-data="collapse">
+    <h2>Setup - <a href="#" x-bind="trigger"></a></h2>
 
-<div id="setup-window" class="collapsed">
+    <div x-bind="target" x-transition.opacity>
 
 {% endif %}
 
@@ -38,5 +39,6 @@ https://{{ setup-instructions_domain }}/<repository> <distribution> <component> 
 </p>
 
 {% if include.collapse %}
+    </div>
 </div>
 {% endif %}
