@@ -15,8 +15,8 @@ figure {
 	margin-bottom: $spacer-4;
 	border-bottom: solid 1px $border-gray-light;
 
-	&-title {
-		border: 0 !important;
+	&-title a:hover {
+        text-decoration: none;
 	}
 
     &-search {
