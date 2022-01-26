@@ -7,7 +7,7 @@
     "alpinejs": "^3.8.1",
     "anchor-js": "^4.1.0",
     "clipboard": "^2.0.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.6.0",
     "lunr": "^2.3.9",
     "tippy.js": "^5.2.1",
     "webpack": "^5.67.0",
