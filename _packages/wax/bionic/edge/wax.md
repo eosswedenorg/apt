@@ -8,12 +8,12 @@ Depends:
   - libc6
   - libgcc1
   - libssl1.1
+  - libicu60
   - libstdc++6
   - libtinfo5
   - zlib1g
   - libusb-1.0-0
   - libcurl3-gnutls
-  - libpq5
 Description: Software for the WAX network
 Homepage: https://github.com/worldwide-asset-exchange/wax-blockchain
 Maintainer: WAX Team
@@ -22,6 +22,13 @@ Priority: optional
 Repo: wax
 Section: devel
 Versions:
+  3.0.0wax01-rc1-mandel-5832f4a:
+    Filename: wax_3.0.0wax01-rc1-mandel-5832f4a-mandel-5832f4a-ubuntu-18.04_amd64.deb
+    Size: "16165968"
+    MD5sum: 013d497323b74f722d7d6c12090e9d2b
+    SHA1: acb1623f80d2c2032c04335ed856156108f80f45
+    SHA256: 735a8efa57b0efc48a339a7ac343771ae3d32a4ffef4d426c03fb5e1679a1295
+    SHA512: 4915d9237197b9ef671e06e8f8325195d57801392dedfcc46e731bc931bac90be941a9214edf28b731a3c1892e0203de1fd12f69f785e874356c96877e28e1d7
   2.1.0wax01-1:
     Filename: wax_2.1.0wax01-1-ubuntu-18.04_amd64.deb
     Size: "35275412"
