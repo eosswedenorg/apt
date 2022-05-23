@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+{% assign repo = page.url | remove_first: '/' | split: '/' | first %}
+{% assign archive_url = repo | append: '/' | append: page.Archive | relative_url %}
 
-<h2>Package: {{ page.Name }} ({{ page.Versions.first[0] }}) [{{ page.Archive }}:{{ page.Component }}]</h2>
+<h2>Package: {{ page.Name }} ({{ page.Versions.first[0] }}) [<a href="{{ repo | relative_url }}">{{ repo }}</a>/<a href="{{ archive_url }}">{{ page.Archive }}</a>:<a href="{{ archive_url }}#{{ page.Component }}">{{ page.Component }}</a>]</h2>
 
 <h3>{{ page.Description | capitalize }}</h3>
 
