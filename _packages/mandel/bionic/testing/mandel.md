@@ -3,7 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
-Conflicts: eosio
+Conflicts: eosio, bos, uos, fio, wax, wax-mandel
 Depends:
   - libc6 (>= 2.18)
   - libcurl4 (>= 7.16.2)
@@ -12,14 +12,22 @@ Depends:
   - libssl1.1 (>= 1.1.0)
   - libusb-1.0-0 (>= 2:1.0.16)
   - zlib1g (>= 1:1.2.0)
-Description: daemon and CLI tools including nodeos, cleos, and keosd
-Installed-Size: "89197"
+Description: The mandel fork of EOSIO
+Homepage: https://github.com/eosnetworkfoundation/mandel
+Installed-Size: "89198"
 Maintainer: EOS Network Foundation
 Name: mandel
 Priority: optional
 Repo: mandel
 Section: utils
 Versions:
+  3.1.0-rc2:
+    Filename: mandel_3.1.0-rc2-ubuntu-18.04_amd64.deb
+    Size: "19257508"
+    MD5sum: 95ff2db316645568ca79e7bf1cee6af0
+    SHA1: 7531743f96f16edcdff37c50a3a46798c648a65c
+    SHA256: 64b9e22e11a09bd8097ffc4499b85b5cda06cd75d4df21f60638e1f1e2d74a51
+    SHA512: 50244c7821dee0d2d38fad12f49ac63f0efe79fc61d418e4914c946a194d0e2c86c668a894a71b7e3613cf3d3baa68c33c310dbcaf48fa4d469df1f1da68c27d
   3.1.0-rc1:
     Filename: mandel-3.1.0-rc1-ubuntu18.04-x86_64.deb
     Size: "30691778"
