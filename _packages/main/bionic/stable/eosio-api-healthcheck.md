@@ -26,6 +26,13 @@ Versions:
     SHA1: c2998e855ec12f89582434a1fc93bfb8edc38674
     SHA256: 3701f6ead4e4147f065930682063bba60a3ba290c8203b699c5efa4dc0cc2f0a
     SHA512: 824d7af249238233009992dcb0dba11d40aabe4da5804f8921f71cdeb30e77acb7ee50a0ce2204bca2a61b62926eb7212f2a17f88ed8bc2891436c12c647d002
+  1.2-1:
+    Filename: eosio-api-healthcheck_1.2-1-ubuntu-18.04_amd64.deb
+    Size: "1812592"
+    MD5sum: 234155a3f2fe16658f122851ce2a4f5b
+    SHA1: a95bd0eac7ac202ff85c7622045beac638c4ee11
+    SHA256: 9bda868b45bc1a5a31e59be35bdffc6b13fc842ae6dbd59f64d8a39b9ef98c82
+    SHA512: 3248e1bc9ebe3e6cd356a3716d481ea8ca913233d4da90c6059b31465ea2a70f02c1501ae1bc281bab640cd59114d1e83caff3b0f727917e631a70310f74e770
   1.1-1:
     Filename: eosio-api-healthcheck_1.1-1-ubuntu-18.04_amd64.deb
     Size: "2219512"
