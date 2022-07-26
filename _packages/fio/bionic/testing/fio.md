@@ -3,7 +3,7 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
-Conflicts: eosio, bos, uos, wax
+Conflicts: eosio, bos, uos, wax, mandel, wax-mandel
 Depends:
   - libc6
   - libgcc1
@@ -22,6 +22,13 @@ Priority: optional
 Repo: fio
 Section: devel
 Versions:
+  3.4.0-rc1:
+    Filename: fio_3.4.0-rc1-ubuntu-18.04_amd64.deb
+    Size: "12547324"
+    MD5sum: eaeda60d77d42cb21f9b81aca32f66a1
+    SHA1: be3932ea333dd7d91b2213c06310e3702d91a298
+    SHA256: 8e0453bebf1fae1ab3f2fd17196492ace8eca03b87b9815b161d203ad0a29452
+    SHA512: 2b1eb6fc433d3547cd4eaa36f0585edf59f1cc37805d197bfd131725e7ed884692bf7ecda0b4c5e41307414f63846d86e9aca60dc1f099ac6df5abdc90c0fb6d
   3.3.0-1:
     Filename: fio_3.3.0-1-ubuntu-18.04_amd64.deb
     Size: "12523984"
