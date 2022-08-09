@@ -14,13 +14,20 @@ Depends:
   - zlib1g (>= 1:1.2.0)
 Description: The mandel fork of EOSIO
 Homepage: https://github.com/eosnetworkfoundation/mandel
-Installed-Size: "89198"
+Installed-Size: "89214"
 Maintainer: EOS Network Foundation
 Name: mandel
 Priority: optional
 Repo: mandel
 Section: utils
 Versions:
+  3.1.0-rc3:
+    Filename: mandel_3.1.0-rc3-ubuntu-18.04_amd64.deb
+    Size: "19269692"
+    MD5sum: 303be119688767d69a678d78e68c87c4
+    SHA1: abf17a7c871a44ae02b557fe400207926ec8f334
+    SHA256: 96d4b3dbe2e685969f330d4e24b5e240b1c0234ee2e4c5d237260fa81899fd06
+    SHA512: ce234a6f30029dd8501db8a60c21d8e19c0882807233535ae5def36f76064bea72a8ace0857a30e28f10f7c9b7a13bc3b66f93dd935d10605a6a71dbc2a20eaa
   3.1.0-rc2:
     Filename: mandel_3.1.0-rc2-ubuntu-18.04_amd64.deb
     Size: "19257508"
