@@ -3,25 +3,31 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
-Conflicts: eosio, bos, uos, fio
+Conflicts: eosio, bos, uos, fio, mandel, wax-mandel
 Depends:
-  - libc6
-  - libgcc1
-  - libssl1.1
-  - libicu60
-  - libstdc++6
-  - libtinfo5
-  - zlib1g
-  - libusb-1.0-0
-  - libcurl3-gnutls
+  - libc6 (>= 2.18)
+  - libcurl4 (>= 7.16.2)
+  - libgcc1 (>= 1:3.3)
+  - libgmp10
+  - libssl1.1 (>= 1.1.0)
+  - libusb-1.0-0 (>= 2:1.0.16)
+  - zlib1g (>= 1:1.2.0)
 Description: Software for the WAX network
 Homepage: https://github.com/worldwide-asset-exchange/wax-blockchain
+Installed-Size: "89272"
 Maintainer: WAX Team
 Name: wax
 Priority: optional
 Repo: wax
-Section: devel
+Section: utils
 Versions:
+  3.1.0wax01-rc3:
+    Filename: wax_3.1.0wax01-rc3-ubuntu-18.04_amd64.deb
+    Size: "19292192"
+    MD5sum: 1419a13f9879fffefd8248f1f092d35e
+    SHA1: b523382e1b56c335950206971d7182d5248f4bb7
+    SHA256: cc1ca730c39c2c010b3f5bcb2076741bb9aac691b33d1e3abb4a92cf22117b67
+    SHA512: 92ce12b7cae34d529410cae85540ff4357b17efdf69c45146a6c9755e1d6e0590a8b308a858a261dbcefc5bfd1b00831ccf19d24fde08873155ae27f09c7591e
   2.0.14wax01-1:
     Filename: wax_2.0.14wax01-1-ubuntu-18.04_amd64.deb
     Size: "45202164"
