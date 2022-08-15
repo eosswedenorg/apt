@@ -12,6 +12,13 @@ Priority: optional
 Repo: main
 Section: introspection
 Versions:
+  1.2.2-1:
+    Filename: eosio-api-healthcheck_1.2.2-1-ubuntu-20.04_amd64.deb
+    Size: "1813428"
+    MD5sum: 0573eae358bb2f8b87dd777d1daf8798
+    SHA1: 232c82301bde4b05486315f424832ef4b3e8731e
+    SHA256: f71864f131720f0cf44a404d42643dc33744ffa5fbc4f4a848597e9687ef1ebb
+    SHA512: 84b5b7da5e83367e90f63e1810c613f29d83db9356086363e1f2df3773d5e0d3a391d6c8ead461ab4edad7847037fa03ae935d7f94cab81c04d7230fc88503bc
   1.2.1-1:
     Filename: eosio-api-healthcheck_1.2.1-1-ubuntu-20.04_amd64.deb
     Size: "1813284"
