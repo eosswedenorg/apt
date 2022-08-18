@@ -1,6 +1,6 @@
 ---
 layout: repo
-sequence: 5
+sequence: 6
 
 title: UOS
 repo: uos

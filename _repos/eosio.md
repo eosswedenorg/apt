@@ -1,6 +1,6 @@
 ---
 layout: repo
-sequence: 2
+sequence: 3
 
 title: EOSIO
 repo: eosio

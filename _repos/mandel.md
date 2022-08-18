@@ -1,6 +1,6 @@
 ---
 layout: repo
-sequence: 7
+sequence: 4
 
 title: Mandel
 repo: mandel
