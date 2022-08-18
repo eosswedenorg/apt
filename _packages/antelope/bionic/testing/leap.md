@@ -17,7 +17,7 @@ Installed-Size: "89214"
 Maintainer: EOS Network Foundation
 Name: leap
 Priority: optional
-Repo: eosio
+Repo: antelope
 Section: utils
 Versions:
   3.1.0-rc4:

@@ -16,7 +16,7 @@ Installed-Size: "89214"
 Maintainer: EOS Network Foundation
 Name: leap-310-rc4
 Priority: optional
-Repo: eosio
+Repo: antelope
 Section: utils
 Versions:
   3.1.0-rc4:
