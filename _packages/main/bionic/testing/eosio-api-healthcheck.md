@@ -3,27 +3,22 @@
 Architecture: amd64
 Archive: bionic
 Component: testing
-Depends: []
+Depends:
+  - libc6 (>= 2.4)
 Description: HAproxy healthcheck program for EOSIO API.
 Homepage: https://github.com/eosswedenorg/eos-api-healthcheck
+Installed-Size: "6931"
 Maintainer: Henrik Hautakoski <henrik@eossweden.org>
 Name: eosio-api-healthcheck
 Priority: optional
 Repo: main
 Section: introspection
 Versions:
-  1.2.2-1:
-    Filename: eosio-api-healthcheck_1.2.2-1-ubuntu-18.04_amd64.deb
-    Size: "1812956"
-    MD5sum: 40a8b275e5b021c4729061e0280f5a6c
-    SHA1: 2cbc88c662bbcb9d12c2402b342d33eeae4073b8
-    SHA256: 6944717d24615a16a26f619f1ef80a0e26e0993b4e7245f5096bc6f190c23e37
-    SHA512: b6760ecb8a677c8cdbc4ab4de0e94c7a2ceb7d43e267b8210b456fbcd7142a38e0b1894a96b8f430b2cefdf59dc4ff60b37f6e242055c5969b2cd5a9b36c54ec
-  1.2.1-1:
-    Filename: eosio-api-healthcheck_1.2.1-1-ubuntu-18.04_amd64.deb
-    Size: "1813224"
-    MD5sum: 0a9b3025f8488794b707682bfe74c310
-    SHA1: d8931096340f1fa85f507ea1a2acb34a9da5f056
-    SHA256: e197f9c080982797f781d62a2c3f9ea146f24b865215c8f9fe43a4fc83c2e346
-    SHA512: 4ab6b5b7979f74a48f62c917ba6ddac4edf8b341ae39625daf5cf6551cb33569ae186899ed88f644267a0146d0242a54981ab1502950114f55339eae38ce688c
+  1.2.3:
+    Filename: eosio-api-healthcheck_1.2.3_amd64.deb
+    Size: "1969016"
+    MD5sum: a2558dc11dc6009e4c652e8e1a9b42f3
+    SHA1: 68b52c464b94463e0ed5dd7f435932738ed07f02
+    SHA256: 23e8371e96d68aadbf4a8075493db052897caf1733776de6d17344545191c100
+    SHA512: d1592338006c5e1842bbc31a4931cbd388c38adb7e869a5b62d060a08b3b51af16aeb0f8165e60181a24cea6ea3ee0d9c90ebe5bdf917f5706bf0a646d3113ce
 ---
