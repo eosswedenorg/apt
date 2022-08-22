@@ -3,25 +3,59 @@
 Architecture: amd64
 Archive: bionic
 Component: stable
-Conflicts: eosio, bos, uos, fio
+Conflicts: eosio, bos, uos, fio, mandel, wax-mandel
 Depends:
-  - libc6
-  - libgcc1
-  - libssl1.1
-  - libicu60
-  - libstdc++6
-  - libtinfo5
-  - zlib1g
-  - libusb-1.0-0
-  - libcurl3-gnutls
+  - libc6 (>= 2.18)
+  - libcurl4 (>= 7.16.2)
+  - libgcc1 (>= 1:3.3)
+  - libgmp10
+  - libssl1.1 (>= 1.1.0)
+  - libusb-1.0-0 (>= 2:1.0.16)
+  - zlib1g (>= 1:1.2.0)
 Description: Software for the WAX network
 Homepage: https://github.com/worldwide-asset-exchange/wax-blockchain
+Installed-Size: "89272"
 Maintainer: WAX Team
 Name: wax
 Priority: optional
 Repo: wax
-Section: devel
+Section: utils
 Versions:
+  3.1.0wax01-rc3:
+    Filename: wax_3.1.0wax01-rc3-ubuntu-18.04_amd64.deb
+    Size: "19292192"
+    MD5sum: 1419a13f9879fffefd8248f1f092d35e
+    SHA1: b523382e1b56c335950206971d7182d5248f4bb7
+    SHA256: cc1ca730c39c2c010b3f5bcb2076741bb9aac691b33d1e3abb4a92cf22117b67
+    SHA512: 92ce12b7cae34d529410cae85540ff4357b17efdf69c45146a6c9755e1d6e0590a8b308a858a261dbcefc5bfd1b00831ccf19d24fde08873155ae27f09c7591e
+  2.1.0wax01-1:
+    Filename: wax_2.1.0wax01-1-ubuntu-18.04_amd64.deb
+    Size: "35275412"
+    MD5sum: 64c7821b11018e85d4a7d107507d0f83
+    SHA1: 8edc899ba1c1f810038c030dec8a07ef2445e080
+    SHA256: afbc83cf20cd85b3e849d368306242d5c3bc02035b56d150baf80bfd54fc9ebf
+    SHA512: f8f4d76d6ab3111047fd94457d9dc31b45185e0f13baf1773985cbd4cf489cc77ef6fcbaca497660ffb9dd79bae9f7789732e63cb791ce1cee3f4b37300e2626
+  2.0.14wax01-1:
+    Filename: wax_2.0.14wax01-1-ubuntu-18.04_amd64.deb
+    Size: "45202164"
+    MD5sum: 684fd8fddbd9b8344081fd59685dfc5b
+    SHA1: 56a714b93878543e935b5420844a2b66424862f6
+    SHA256: 2240ac05b30eb33369897de25924bd41e88694c4fa0b293d3eaebb86e9dc216f
+    SHA512: 7add832785aded934e6f61e058bb0bc14cdec6751b17b640c21a34db99446104e7eeab8e946fb3a7a847e5e7ac290a26082b69064512ac5684cd673b0a04f8bb
+  2.0.13wax04-1:
+    Filename: wax_2.0.13wax04-1-ubuntu-18.04_amd64.deb
+    Size: "45212372"
+    MD5sum: 9eac5d2e00529366088d93f36748de7d
+    SHA1: 2f558725f7c49d309c5bb2136cb065a5c2ee6083
+    SHA256: 8fb9f90a6e299182cdfa28cf186cae3a47fab5d35fe64f0be10b7b7cd1e097da
+    SHA512: dac976692ccb5a6bc16ecf119b30f3a0ac087d59f650ab09125aeb631d6535fdaac7b38d2810c961d1c4eaf524284ff7645d9dd897060aadcedebc0076003234
+  2.0.13wax03-1:
+    Filename: wax_2.0.13wax03-1-ubuntu-18.04_amd64.deb
+    Size: "45201688"
+    MD5sum: 3373167fd58b8278922d587bcfade11b
+    SHA1: 589a7c6c601a9f0372efcd0f124f83952483d488
+    SHA256: 2e08d499e43310d6d924d57bf28f270943a3d1354f5b6687bad7e84d4b6bd6b9
+    SHA512: f11d22ed88973f72fbf7c4d93613c442c7fa295c6e236b20bb8ee5980758cc9f12aebec72d48f5aecc21db637624dea47630fccf0e47f8e35d35b7c5eaa000cb
   2.0.13wax01-1:
     Filename: wax_2.0.13wax01-1-ubuntu-18.04_amd64.deb
     Size: "45197228"
@@ -29,6 +63,13 @@ Versions:
     SHA1: 1f0fb809669e9277f623d2760d7d4b5aa193f91c
     SHA256: 7bb78dee215158243cdc8632a6bd264c140d1476b2903d799bbb753859a16e7b
     SHA512: 1279012eb2c7ba368a639349c40e0ea9b9ced0dac2c521eaf8d518f6af496be34a49342309b61294ef1d2baf456e94050eee61f761db1c030bb7bd6811359c28
+  2.0.12wax02-1:
+    Filename: wax_2.0.12wax02-1-ubuntu-18.04_amd64.deb
+    Size: "45577836"
+    MD5sum: 7880fb38bfe16f56e96fe04de6b5ddd6
+    SHA1: f18e8f8247f9b7bce8a67bff765528bfb0c24ef3
+    SHA256: dd8b74d84ea5af46f19100f0e426eb5c6457c4ba3677a1525f95d5eabc6b41ec
+    SHA512: baf3acd7b09681048d396968fba605ce43fb8443a0ce22f68f11df0b0945a94f5f753d20103a4c0e7a520d87ffba29b0f7f39452f843f5b1eaa64fdd1c551d44
   2.0.12wax01-1:
     Filename: wax_2.0.12wax01-1-ubuntu-18.04_amd64.deb
     Size: "45585516"
