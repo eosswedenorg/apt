@@ -5,20 +5,20 @@ Archive: bionic
 Component: testing
 Depends:
   - python (>= 2.4)
-Description: An Interactive ncurses Client for HAProxy
+Description: interactive ncurses client for haproxy
 Homepage: https://github.com/jhunt/hatop
+Installed-Size: "93"
 Maintainer: James Hunt <james@jameshunt.us>
 Name: hatop
-Priority: extra
+Priority: optional
 Repo: main
 Section: admin
-Uploader: Henrik Hautakoski <henrik@eossweden.org>
 Versions:
   0.8.2-1:
-    Filename: hatop_0.8.2-1-ubuntu-18.04_all.deb
-    Size: "20352"
-    MD5sum: 71fd4cfa477e2434f7f1c64e3173b735
-    SHA1: 7f1fbff45e4bc738a0c556a5f57768f94818a26b
-    SHA256: e4fc4fea85e61d1d8c7efa9c391d01a46040ca19fea5f491fc0731e7aec5fe9e
-    SHA512: 745d35f67dff3859cad09462b8031f96a55b7112b8ee704a7b741545ebce43849021b687a73055a501216584e41d2d07ec7bf36d70bd18b058bd1d52d08c077b
+    Filename: hatop_0.8.2-1_all.deb
+    Size: "22388"
+    MD5sum: 5d6ec9a63446df41fc2a131c880e953a
+    SHA1: 0357da08bce86e2147189513e0c018ec7449a2d2
+    SHA256: 954438955a6a78ae227d5daaa0cd5c0dfb73671feb24681bf94bfb0060588645
+    SHA512: 1dedb9c853df3a22d46b3cd33d5fbaba07ca3622fb7c85a419b9f356f3c077258f4b28433e3baae94217f62cd3cc1a47d2db404f02ac5bcf5659a7d2f0f6f0eb
 ---
