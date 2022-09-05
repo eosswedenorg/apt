@@ -18,7 +18,7 @@ sudo apt-get update{% endif %}
 {% else %}
 <h4>For bash like shells.</h4>
 {% highlight bash %}
-sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} `lsb_release -cs` {{ include.components }}'{% if include.update == true %}
+sudo apt-add-repository -y "deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} `lsb_release -cs` {{ include.components }}"{% if include.update == true %}
 sudo apt-get update{% endif %}
 {% endhighlight %}
 
