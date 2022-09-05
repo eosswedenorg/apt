@@ -12,7 +12,7 @@
 	  	{%- for repo in repos -%}
 	    <tr>
 			{%- assign url = repo.url | relative_url -%}
-			{%- assign dists = site.packages | where: 'Repo', repo.slug | group_by: 'Archive' %}
+			{%- assign dists = site.packages | where: 'repo', repo.slug | group_by: 'distribution' %}
 			<td style="text-align: left"><a href="{{ url }}">{{ repo.title }}</a></td>
 			<td style="text-align: left">{% include dist-list.html baseurl=url list=dists %}</td>
 			<td style="text-align: left">{{ repo.description }}</td>

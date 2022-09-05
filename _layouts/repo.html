@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign id = page.slug %}
-{% assign dists = site.packages | where: 'Repo', id | group_by: 'Archive' %}
+{% assign dists = site.packages | where: 'repo', id | group_by: 'distribution' %}
 
 <h2>{{ page.title }} repository</h2>
 
