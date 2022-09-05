@@ -24,7 +24,7 @@ sudo apt-get update{% endif %}
 
 <h4>If you are using fish</h4>
 {% highlight bash %}
-sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }}' (lsb_release -cs) '{{ include.components }}'{% if include.update == true %}
+sudo apt-add-repository -y "deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} "(lsb_release -cs)" {{ include.components }}"{% if include.update == true %}
 sudo apt-get update{% endif %}
 {% endhighlight %}
 {% endif %}
