@@ -1,0 +1,12 @@
+<div>
+    <h4>{{ include.title }}</h4>
+    {% if include.list.size > 0 %}
+    <ul>
+    {% for item in include.list %}
+    	<li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+    {% else %}
+    <p class="text-gray-light ml-4">None</p>
+    {% endif %}
+</div>

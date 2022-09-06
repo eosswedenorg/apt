@@ -2,23 +2,26 @@
 layout: default
 ---
 {% assign repo = page.url | remove_first: '/' | split: '/' | first %}
-{% assign archive_url = repo | append: '/' | append: page.Archive | relative_url %}
+{% assign base_url = repo | append: '/' | append: page.distribution | relative_url %}
+<h2>Package: {{ page.name }} ({{ page.versions.first.version }}) [<a href="{{ repo | relative_url }}">{{ repo }}</a>/<a href="{{ base_url }}">{{ page.distribution }}</a>:<a href="{{ base_url }}#{{ page.component }}">{{ page.component }}</a>]</h2>
 
-<h2>Package: {{ page.Name }} ({{ page.Versions.first[0] }}) [<a href="{{ repo | relative_url }}">{{ repo }}</a>/<a href="{{ archive_url }}">{{ page.Archive }}</a>:<a href="{{ archive_url }}#{{ page.Component }}">{{ page.Component }}</a>]</h2>
+{% assign desc = page.description | newline_to_br | split: '<br />' %}
 
-<h3>{{ page.Description | capitalize }}</h3>
+<h3>{{ desc | first | capitalize }}</h3>
 
-<h4>Dependencies</h4>
-
-{% if page.Depends.size > 0 %}
-<ul>
-{% for dep in page.Depends %}
-	<li>{{ dep }}</li>
-{% endfor %}
-</ul>
-{% else %}
-<p class="text-gray-light">None</p>
+{% if desc.size > 1 %}
+<p>
+    {% for line in desc offset:1 %}
+    {{ line }}
+    {% endfor %}
+</p>
 {% endif %}
+
+{% include package-list.html title="Dependencies" list=page.depends %}
+{% include package-list.html title="Conflicts" list=page.conflicts %}
+{% include package-list.html title="Breaks" list=page.breaks %}
+{% include package-list.html title="Recomends" list=page.recomends %}
+{% include package-list.html title="Replaces" list=page.replaces %}
 
 <h4>Download</h4>
 
@@ -28,18 +31,17 @@ layout: default
 		<th>Size</th>
 		<th>sha256</th>
 	</tr>
-	{% for version in page.Versions %}
+	{% for item in page.versions %}
 	<tr>
 		<td>
-			<a href="https://{{site.apt.domain}}/{{ page.Repo }}/pool/{{ page.Component }}/{{ page.Name | slice: 0 }}/{{ page.Name }}/{{ version[1].Filename }}">
-				{{ version[0] }}
+			<a href="https://{{site.apt.domain}}/{{ page.repo }}/{{ item.filename }}">
+				{{ item.version }}
 			</a>
 		</td>
 		<td>
-			{% assign tmpSize = version[1].Size %}
-			{% include size.html input=tmpSize %}
+			{% include size.html input=item.size %}
 		</td>
-		<td class="text-mono">{{ version[1].SHA256 }}</td>
+		<td class="text-mono">{{ item.sha256 }}</td>
 	</tr>
 	{% endfor %}
 </table>
@@ -47,10 +49,10 @@ layout: default
 <h4>External resources</h4>
 
 <ul>
-	{% if page.Homepage.size > 0 %}
-	<li>Homepage: <a target="_blank" href="{{ page.Homepage }}" rel="noopener noreferrer">{{ page.Homepage }}</a></li>
+	{% if page.homepage.size > 0 %}
+	<li>Homepage: <a target="_blank" href="{{ page.Homepage }}" rel="noopener noreferrer">{{ page.homepage }}</a></li>
 	{% endif %}
-	{% if page.Maintainer.size > 0 %}
-	<li>Maintainer: {{ page.Maintainer }}</li>
+	{% if page.maintainer.size > 0 %}
+	<li>Maintainer: {{ page.maintainer | escape }}</li>
 	{% endif %}
 </ul>

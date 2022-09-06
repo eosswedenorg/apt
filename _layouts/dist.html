@@ -7,7 +7,7 @@ layout: default
 {% assign repo_info = site.repos | where: 'repo', repo | first %}
 
 {% assign domain = repo_info.domain | default: site.apt.domain %}
-{% assign list = site.packages | where: 'Repo', repo | where: 'Archive', dist %}
+{% assign list = site.packages | where: 'repo', repo | where: 'distribution', dist %}
 
 <h2>{{ repo }} - {{ dist }}</h2>
 
@@ -20,7 +20,7 @@ layout: default
 {% for component in site.apt.components %}
 
 <h3>{{ component }}</h3>
-{% assign packages = list | where: 'Component', component %}
+{% assign packages = list | where: 'component', component %}
 
 {% if packages.size > 0 %}
 
@@ -29,14 +29,14 @@ layout: default
 <table class="d-lg-table">
     <tr>
         <th style="width: 20%">Name</th>
-	<th>Description</th>
+        <th>Description</th>
         <th>Latest Version</th>
     </tr>
     {% for package in packages %}
     <tr>
-        <td><a href="{{ package.url | relative_url }}" >{{ package.Name }}</a></td>
-	<td>{{ package.Description }}</td>
-        <td>{{ package.Versions.first[0] }}</td>
+        <td><a href="{{ package.url | relative_url }}" >{{ package.name }}</a></td>
+    <td>{{ package.description | newline_to_br | strip_newlines | split: '<br />' | first | capitalize }}</td>
+    <td>{{ package.versions.first.version }}</td>
     </tr>
     {% endfor %}
 </table>
