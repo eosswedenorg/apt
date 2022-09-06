@@ -5,9 +5,13 @@ layout: default
 {% assign base_url = repo | append: '/' | append: page.distribution | relative_url %}
 <h2>Package: {{ page.name }} ({{ page.versions.first.version }}) [<a href="{{ repo | relative_url }}">{{ repo }}</a>/<a href="{{ base_url }}">{{ page.distribution }}</a>:<a href="{{ base_url }}#{{ page.component }}">{{ page.component }}</a>]</h2>
 
+<div class="package">
+
+    <div class="package-main">
+
 {% assign desc = page.description | newline_to_br | split: '<br />' %}
 
-<h3>{{ desc | first | capitalize }}</h3>
+<p><strong>{{ desc | first | capitalize }}</strong></p>
 
 {% if desc.size > 1 %}
 <p>
@@ -46,13 +50,26 @@ layout: default
 	{% endfor %}
 </table>
 
-<h4>External resources</h4>
+    </div>
 
-<ul>
-	{% if page.homepage.size > 0 %}
-	<li>Homepage: <a target="_blank" href="{{ page.homepage }}" rel="noopener noreferrer">{{ page.homepage }}</a></li>
-	{% endif %}
-	{% if page.maintainer.size > 0 %}
-	<li>Maintainer: {{ page.maintainer | escape }}</li>
-	{% endif %}
-</ul>
+    <div class="package-sidebar">
+
+        <h3>Additional information</h3>
+
+    	{% if page.homepage.size > 0 %}
+        <h4>External resources</h4>
+        <ul>
+            <li><a target="_blank" href="{{ page.homepage }}" rel="noopener noreferrer">Homepage</a></li>
+        </ul>
+    	{% endif %}
+
+    	{% if page.maintainer.size > 0 %}
+    	<h4>Maintainer</h4>
+        <ul>
+            <li>{{ page.maintainer | escape }}</li>
+        </ul>
+    	{% endif %}
+
+    </div>
+
+</div>
