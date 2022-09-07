@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-//  Colors
+//  Branding
 // ------------------------------
 $green:            #00b00b;
 $brand-color:      $green;
@@ -12,6 +12,17 @@ $body-font: -apple-system, BlinkMacSystemFont,
 	"Noto Sans", sans-serif, "Apple Color Emoji",
 	"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
+$mono-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+$font-size-normal: 16px;
+$font-size-small: 14px;
+
+$spacer-1: 4px;
+$spacer-2: 8px;
+$spacer-3: 16px;
+$spacer-4: 24px;
+$spacer-5: 32px;
+$spacer-6: 40px;
 
 // Heading sizes - mobile
 $h0-size-mobile: 31px;
@@ -27,3 +38,21 @@ $h3-size: 19px;
 $h4-size: 15px;
 $h5-size: 13px;
 $h6-size: 12px;
+
+// Container
+
+$container-max-sm: 540px;
+$container-max-md: 720px;
+$container-max-lg: 960px;
+$container-max-xl: 1140px;
+
+$border-radius: 4px;
+
+//  Colors
+// ------------------------------
+
+$bg-gray-light: $gray-200;
+$border-gray: $gray-500;
+$border-gray-light: $gray-300;
+
+$text-gray: $gray-900;

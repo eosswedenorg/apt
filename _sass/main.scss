@@ -1,15 +1,21 @@
 
 @import 'https://unpkg.com/tippy.js@5.2.1/dist/tippy.css';
 
+@import "variables/colors";
 @import "variables";
-@import "base";
-@import "typography";
 
+@import "base/normalize";
+@import "base/base";
+@import "base/typography";
+
+@import "layout/container";
 @import "layout/header";
 @import "layout/package";
 @import "layout/footer";
 
 @import "component/button";
 @import "component/search";
+@import "component/markdown";
+@import "component/syntax-highlight";
 
 @import "misc";

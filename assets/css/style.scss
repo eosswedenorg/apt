@@ -3,8 +3,4 @@
 # only Main files contain this front matter, not partials.
 ---
 
-{% if site.theme == "jekyll-theme-primer" %}
-@import "primer-support/index";
-{% endif %}
 @import "main";
-@import "{{ site.theme }}";

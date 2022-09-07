@@ -1,0 +1,68 @@
+// https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
+
+.highlight {
+
+    .n, // Name
+    .na, // Name.Attribute
+    .nb, // Name.Builtin
+    .bp, // Name.Builtin.Pseudo
+    .nc, // Name.Class
+    .no, // Name.Constant
+    .nd, // Name.Decorator
+    .ni, // Name.Entity
+    .ne, // Name.Exception
+    .nf, // Name.Function
+    .py, // Name.Property
+    .nl, // Name.Label
+    .nn, // Name.Namespace
+    .nx  // Name.Other
+    {
+        color: $blue-400;
+    }
+
+    .nt, // Name.Tag
+    .nv, // Name.Variable
+    .vc, // Name.Variable.Class
+    .vg, // Name.Variable.Global
+    .vi  // Name.Variable.Instance
+    {
+        color: $indigo-900;
+    }
+
+    // Strings
+
+    .s, // Literal.String
+    .sb, // Literal.String.Backtick
+    .sc, // Literal.String.Char
+    .sd, // Literal.String.Doc
+    .s2, // Literal.String.Double
+    .se, // Literal.String.Escape
+    .sh, // Literal.String.Haredoc
+    .si, // Literal.String.Interpol
+    .sx, // Literal.String.Other
+    .sr, // Literal.String.Regex
+    .s1, // Literal.String.Single
+    .ss  // Literal.String.Symbol
+    {
+        color: $red-900;
+    }
+
+    // Numbers
+
+    .m, // Literal.Number
+    .mf, // Literal.Number.Float
+    .mh, // Literal.Number.Hex
+    .mi, // Literal.Number.Integer
+    .il, // Literal.Number.Integer.Long
+    .mo, // Literal.Number.Oct
+    .mx, // Literal.Number.Hex
+    .mb // Literal.Number.Bin
+    {
+        color: $blue-400;
+    }
+
+    // Operator
+    //.o {
+        // color: $syntax-operator;
+    //}
+}

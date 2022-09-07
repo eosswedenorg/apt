@@ -1,0 +1,47 @@
+
+body {
+    font-family: $body-font;
+    font-size: $font-size-normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// Text
+
+.text-red {
+    color: $red-900;
+}
+
+// Links
+
+a {
+    color: $brand-color;
+}
+
+// Code
+
+pre {
+    padding: $spacer-3;
+    overflow: auto;
+    // font-size: 85%;
+    // line-height: 1.45;
+    background-color: $gray-100;
+    border-radius: $border-radius;
+
+    > code {
+        // Abit of a hack, need to reset some things as markdown inline code blocks does not set a class.
+        background: transparent !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+    }
+}
+
+pre,
+code,
+.text-mono {
+    font-family: $mono-font;
+}
+
+figure {
+    margin: 1em 0 !important;
+}

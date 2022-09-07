@@ -1,0 +1,32 @@
+
+.markdown-body {
+
+    h1,h2,h3,h4,h5,h6 {
+        padding-top: .4em;
+        padding-bottom: .4em;
+    }
+
+    h1,h2 {
+        border-bottom: solid 1px $border-gray-light;
+    }
+
+    code {
+        background: $gray-200;
+        padding: .2em .4em;
+        border-radius: $border-radius;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th, td {
+            border: solid 1px $border-gray-light;
+            padding: .4em .8em;
+        }
+
+        tr:nth-child(even) > td {
+            background: $gray-100;
+        }
+    }
+}
