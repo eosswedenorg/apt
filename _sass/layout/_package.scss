@@ -1,0 +1,17 @@
+
+.package {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2em;
+
+    //&-main {
+    //}
+
+    &-sidebar {
+        min-width: 400px;
+        padding: 0 2em;
+        background: $bg-gray-light;
+        border: solid 1px $border-gray-light;
+    }
+}
