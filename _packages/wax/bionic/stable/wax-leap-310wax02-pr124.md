@@ -3,7 +3,7 @@
 name: wax-leap-310wax02-pr124
 repo: wax
 distribution: bionic
-component: testing
+component: stable
 installed-size: 89289
 description: Port of AntelopeIO software to WAX blockchain
 homepage: https://github.com/cc32d9/wax-leap
@@ -26,7 +26,7 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/testing/w/wax-leap-310wax02-pr124/wax-leap-310wax02-pr124_3.1.0wax02-pr124-ubuntu-20.04_amd64.deb
+- filename: pool/stable/w/wax-leap-310wax02-pr124/wax-leap-310wax02-pr124_3.1.0wax02-pr124-ubuntu-20.04_amd64.deb
   md5sum: e4bab23b0666eb765649a82b03d88cd3
   sha1: 7007326d5ec48bb87eb2de2397bd93bccebf8a0f
   sha256: c71a2719fa276090ed4e4fdcefd1cf749fb3a7ea16533c627eb1327092a80063
