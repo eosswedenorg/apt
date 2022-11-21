@@ -28,11 +28,18 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/testing/l/leap/leap-3.1.1-ubuntu18.04-amd64.deb
-  md5sum: 6d2f7653d2880aed2eb110b33cdf624f
-  sha1: c896b62efed783c2953482e8747cee59892302d3
-  sha256: db091687157ff9c312ec7f286deb3c47de891c9f495f442bc1e216036667ba72
-  sha512: 22c1566c17192a04310aaab5bc4e5f812ba443ffa45e88bb42a90ed3ff49b7d320efb3be9a0715af69d21ca137b1252b5fc937c6087be66903dbb4d7b7b1032d
-  size: 31376478
-  version: 3.1.1
+- filename: pool/testing/l/leap/leap_3.1.3_ubuntu18.04_amd64.deb
+  md5sum: a5dfe2ed532f001435802fbbeae29c5d
+  sha1: 57afa129361ef2ea6e648953b69c9494a1bf551d
+  sha256: 132e7ee2d0926b3c9bf44e1954a3dec75f21dae314e9709e6509ddc52932f0da
+  sha512: 6eaea4ef31cdf96d4b24f3ca905a0cc8fc06739f053d2f49581fac1222048a3c36742927ae8635a0061a1f4fbb1758e626bfc3f01a8783f6f08a637f60555c1d
+  size: 31375238
+  version: 3.1.3
+- filename: pool/testing/l/leap/leap_3.1.2_ubuntu18.04_amd64.deb
+  md5sum: 33179db0d676ebd0bbd17aea07392e5e
+  sha1: 98208c78b3bffd506d69ade0d1584a42601e5955
+  sha256: a771daa03c50127ae91e3b164eac4eda2c685a14d4101abe7b218db01e99f297
+  sha512: e20d0e60454a3eb88bc01421c4c0ba38046ddce163bdcde2b4941b133f6dc53c4ac9e68a55aaf8d462969226e1446507a3fef1cdfa9fe22e249f64e22c92c3fe
+  size: 31377186
+  version: 3.1.2
 ---
