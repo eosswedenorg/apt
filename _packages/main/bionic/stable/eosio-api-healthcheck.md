@@ -4,7 +4,7 @@ name: eosio-api-healthcheck
 repo: main
 distribution: bionic
 component: stable
-installed-size: 6931
+installed-size: 11187
 description: |
   HAproxy healthcheck program for EOSIO API.
   This package provides all the files needed to
@@ -23,6 +23,20 @@ replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/e/eosio-api-healthcheck/eosio-api-healthcheck_1.2.5_amd64.deb
+  md5sum: 147eefafb6983374202b249fbfee0b54
+  sha1: 5418e94299b73d5342f05568800fac7be32230d5
+  sha256: f9d0459b67e526d0452281b817d1d965d4d3701da01b448fcffa888144a05a05
+  sha512: 73cd8ccaebf49e544b100e8f640273e13911d5f0a9a2f44e70611fa1170e2c049190c976e0f61a077756167852df7e07e4df5e66baffd9739af781700623081f
+  size: 2919172
+  version: 1.2.5
+- filename: pool/stable/e/eosio-api-healthcheck/eosio-api-healthcheck_1.2.4_amd64.deb
+  md5sum: 1066afad23ff2ea9e97f9c422e129440
+  sha1: b6d6158fe95273c082225860afade8f837f6d690
+  sha256: 57a2756cc2ae3732140cf6cf2600b38f0b23e9efda17ef03851f966cfe516a10
+  sha512: d3ed62831d8549c6d5e2dfc65c2257026d0a77c70600684a6a51349c1cb511ea7b27747335a8dce220cadf1c7b7b6a43f52ca15d5e7057dfcdd57a8457bd271c
+  size: 2916556
+  version: 1.2.4
 - filename: pool/stable/e/eosio-api-healthcheck/eosio-api-healthcheck_1.2.3_amd64.deb
   md5sum: a2558dc11dc6009e4c652e8e1a9b42f3
   sha1: 68b52c464b94463e0ed5dd7f435932738ed07f02
