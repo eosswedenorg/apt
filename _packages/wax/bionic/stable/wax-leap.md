@@ -4,9 +4,9 @@ name: wax-leap
 repo: wax
 distribution: bionic
 component: stable
-installed-size: 89289
+installed-size: 92393
 description: Port of AntelopeIO software to WAX blockchain
-homepage: https://github.com/cc32d9/wax-leap
+homepage: ""
 maintainer: cc32d9
 section: utils
 priority: optional
@@ -22,18 +22,26 @@ depends:
 - zlib1g (>= 1:1.2.0)
 conflicts:
 - eosio
-- leap
-- bos
-- uos
-- fio
-- wax
 - mandel
-- wax-mandel
 breaks: []
 replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/w/wax-leap/wax-leap-3.1.2wax01-ubuntu18.04-amd64.deb
+  md5sum: 9c327ffc37d2cc14cdf30da820faaf72
+  sha1: ec01de450874a9bac11407e28b474d07dc94e8e6
+  sha256: 0fedc551a63cc02fc04ed2cdf1ad6b29b365b2f26facaf11ad22f5f0594b195d
+  sha512: 4b21d2daacd416fcb1c4e0a58ea9130452de4fbdaf95ba8a7293ceb6aa2cb9025d5e7a3b45c09e6dcf91de89634d3e5fad3e2976b649e8c600cac51396d4f0a4
+  size: 31397848
+  version: 3.1.2wax01
+- filename: pool/stable/w/wax-leap/wax-leap_3.1.1wax01-ubuntu-20.04_amd64.deb
+  md5sum: 8407497d60a8895c993a061ca0af4a34
+  sha1: 2782dcc399334073c98217e0f77518195f38a07f
+  sha256: af52646e6832ad243c3dddc259436a64aeffd3de725e749e9563def90bc9a70b
+  sha512: 985ad7e7c8a8a31cfeef5c7c9b0f5873ae8d29a08560f63d7ce607ae8f989d6127ed8c31cbf0162c9fd8ef97539b5940ffc0da1341b1555de33c003e831fabe7
+  size: 19670852
+  version: 3.1.1wax01
 - filename: pool/stable/w/wax-leap/wax-leap_3.1.0wax02-pr124-ubuntu-20.04_amd64.deb
   md5sum: d6763fe726ed2f43808376d21e48f0ea
   sha1: 5b81fcf26cdb74ea04f054c62e2f2834f0fd587b
