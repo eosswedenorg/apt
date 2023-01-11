@@ -4,7 +4,7 @@ name: antelope-api-healthcheck
 repo: main
 distribution: bionic
 component: testing
-installed-size: 14264
+installed-size: 13473
 description: |
   HAproxy healthcheck program for Leap API.
   This package provides all the files needed to
@@ -23,11 +23,11 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/testing/a/antelope-api-healthcheck/antelope-api-healthcheck_1.3.1_amd64.deb
-  md5sum: 9c419e7673f37879362148ed4a765395
-  sha1: 165d085b1953ff082f51a4c37974dcb906b18206
-  sha256: 4ca1cf9fd296f0d1f1bf8e55dfa248c380091b7ae4d0a63ae0cc9990864f3c78
-  sha512: 4898fa2533311b89a4eda654bee4116881092e0250029aa10add235dcc43e63cda0c4cc4815b4b49030c617240a9f4aabbc0e4dd0511a55773eec8553725a1dd
-  size: 3561684
-  version: 1.3.1
+- filename: pool/testing/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.0_amd64.deb
+  md5sum: 677eb110c8126ef764686d510a7a26b2
+  sha1: 445a2e536ecc24b0c7fd4689411f37f4a1684a5b
+  sha256: c2e2d27f2bdcbfae5277f5fe0c7984cb329fd9943db326c61810767eebca04d3
+  sha512: bbd61f45650309a5a7db094718149c55fdd00871c02712813a73f3e49c57cd1620539644005d0ac1add3d7ce8ee6fa5101389a9aaf4b305a7935927f267c6e43
+  size: 3722464
+  version: 1.4.0
 ---
