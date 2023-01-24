@@ -3,7 +3,7 @@
 name: leap-320
 repo: antelope
 distribution: bionic
-component: testing
+component: stable
 installed-size: 100948
 description: |
   C++ implementation of the Antelope protocol
@@ -28,7 +28,7 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/testing/l/leap/leap-320_3.2.0-1_ubuntu18.04_amd64.deb
+- filename: pool/stable/l/leap/leap-320_3.2.0-1_ubuntu18.04_amd64.deb
   md5sum: 26f99ea273d243c61c61305247b3406f
   sha1: e355e7e4daa0348653080b42064f6fd525483844
   sha256: dfb5d1a859355403597ece4438086ae7e8751318da57296a9527291b5dc99e2b

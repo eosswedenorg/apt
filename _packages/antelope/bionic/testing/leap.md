@@ -4,7 +4,7 @@ name: leap
 repo: antelope
 distribution: bionic
 component: testing
-installed-size: 100933
+installed-size: 101131
 description: daemon and CLI tools including nodeos, cleos, and keosd
 homepage: ""
 maintainer: EOS Network Foundation
@@ -28,25 +28,18 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/testing/l/leap/leap_3.2.0-ubuntu18.04_amd64.deb
-  md5sum: c9714dd3c367315040e0799e9a4c503d
-  sha1: f443486827fa219a0270e6f3939652ee529a0802
-  sha256: 1fe238aeb91b4561e93efa2866ac416d8997ba5948c450dbb45ee51e53667795
-  sha512: d7112d68cf985b8e6498feae1d3b6169b539fb8508429c2612bcf6ce68e3247845176861c0d5ca88d38df71fac643a7c4edaf0d2a6043b55bef458c16cd3529e
-  size: 34664676
-  version: 3.2.0
-- filename: pool/testing/l/leap/leap_3.1.3_ubuntu18.04_amd64.deb
-  md5sum: a5dfe2ed532f001435802fbbeae29c5d
-  sha1: 57afa129361ef2ea6e648953b69c9494a1bf551d
-  sha256: 132e7ee2d0926b3c9bf44e1954a3dec75f21dae314e9709e6509ddc52932f0da
-  sha512: 6eaea4ef31cdf96d4b24f3ca905a0cc8fc06739f053d2f49581fac1222048a3c36742927ae8635a0061a1f4fbb1758e626bfc3f01a8783f6f08a637f60555c1d
-  size: 31375238
-  version: 3.1.3
-- filename: pool/testing/l/leap/leap_3.1.2_ubuntu18.04_amd64.deb
-  md5sum: 33179db0d676ebd0bbd17aea07392e5e
-  sha1: 98208c78b3bffd506d69ade0d1584a42601e5955
-  sha256: a771daa03c50127ae91e3b164eac4eda2c685a14d4101abe7b218db01e99f297
-  sha512: e20d0e60454a3eb88bc01421c4c0ba38046ddce163bdcde2b4941b133f6dc53c4ac9e68a55aaf8d462969226e1446507a3fef1cdfa9fe22e249f64e22c92c3fe
-  size: 31377186
-  version: 3.1.2
+- filename: pool/testing/l/leap/leap_3.2.1-ubuntu18.04_amd64.deb
+  md5sum: 60a28d2987688c8b49295d96f0e46e20
+  sha1: d6f99a91c282410c512210ead4c0beabf40b177a
+  sha256: 0f4cc51834327514caf59890db2c32706afecb8af86172b51f38d05ad86061ce
+  sha512: 2cbb160cb9947aa3a4263c146e55b622029c993d499795dcb794f3ac9c54ec541ddd841876e97dc1f773028cd0081cab8feb0a31024e6d4e7dacb3c63ae89b83
+  size: 34725678
+  version: 3.2.1
+- filename: pool/testing/l/leap/leap-3.1.4-ubuntu18.04-x86_64.deb
+  md5sum: 2896b5d01db1441482899b52d0975a1c
+  sha1: 226e68e4565dc3a52a21c19b7d864913669cdcd7
+  sha256: aa37c94100728f0d50ebd30b04204bd4fe6ac0ac30958887f513750a98a87493
+  sha512: e9f6aed1fbe03e0a5b1a4f20e16eca497b9b6d880bcca0647ea2b0a39b3fc719badb9fd1a92d93b95258a10fd8994393b6fa086f751269bd3dd8da1b17512976
+  size: 31369246
+  version: 3.1.4
 ---

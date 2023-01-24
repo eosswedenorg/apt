@@ -3,7 +3,7 @@
 name: wax-leap-313wax01ubuntu1
 repo: wax
 distribution: bionic
-component: testing
+component: stable
 installed-size: 2
 description: headers and libraries for native contract unit testing
 homepage: https://github.com/cc32d9/wax-leap
@@ -19,7 +19,7 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/testing/w/wax-leap/wax-leap-313wax01ubuntu1_3.1.3wax01-1ubuntu1_amd64.deb
+- filename: pool/stable/w/wax-leap/wax-leap-313wax01ubuntu1_3.1.3wax01-1ubuntu1_amd64.deb
   md5sum: f8d978e1f7e17b80a3f84e2b426c8aee
   sha1: b59d266d3bc8afdcb6f253ae72bfc1038dcb410b
   sha256: de8e86951507818aabcf532300e115bf1cae2b8020780ca05c691693b0d7055c
