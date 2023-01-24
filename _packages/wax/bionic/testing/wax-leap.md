@@ -4,7 +4,7 @@ name: wax-leap
 repo: wax
 distribution: bionic
 component: testing
-installed-size: 92347
+installed-size: 101189
 description: Port of AntelopeIO software to WAX blockchain
 homepage: ""
 maintainer: cc32d9
@@ -28,6 +28,13 @@ replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/testing/w/wax-leap/wax-leap_3.2.1wax01-ubuntu18.04_amd64.deb
+  md5sum: d40d956470c97b90c3a30dd6cdd6df71
+  sha1: b9592b6e0b20d05bb1ee19ffc03887d9b277bfa0
+  sha256: 8d6dffd73f3510746c9dfbb0a9221f0c44994dc19d3f20223dbde42c97fa6e86
+  sha512: 335f0e105f7d18234ddfbef3e33c28c51491d0b9a97980085fc011338b446866ff9fa3eb3e9a7f8bf638a65f4da3c65e162c063d1b0a08c5b78c7959ffdfd543
+  size: 34750138
+  version: 3.2.1wax01
 - filename: pool/testing/w/wax-leap/wax-leap-3.1.4-ubuntu18.04-x86_64.deb
   md5sum: 7613894033054398ed1c7ca8d4146836
   sha1: fb38c7333c011de25bd4dee774070e671bdbcde1
