@@ -26,7 +26,7 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/testing/w/wax-leap/wax-leap-322wax01ubuntu1_3.2.2wax01-1ubuntu1_amd64.deb
+- filename: pool/testing/w/wax-leap/wax-leap-322wax01ubuntu1_3.2.2wax01-1ubuntu1-ubuntu18.04_amd64.deb
   md5sum: 42f9683da7bb79b1819739aeea2013f4
   sha1: 5142dcef6e9ff6dc2053504060323bc6a38bcae4
   sha256: 66cd13c63fcab8879351e903ab1b8b8945cbffe41ffe3ae4fbb118284135d063
