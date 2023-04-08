@@ -15,7 +15,7 @@
 
 {% highlight bash %}
 sudo apt-get install software-properties-common
-curl https://{{ setup-instructions_domain }}/key 2> /dev/null | sudo apt-key add -
+curl -sS https://{{ setup-instructions_domain }}/key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/eossweden-2023.gpg > /dev/null
 {% endhighlight %}
 
 <p>Then you can add one or more of your repositories:</p>
