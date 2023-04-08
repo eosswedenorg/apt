@@ -14,3 +14,5 @@ gem "nokogiri", ">= 1.11.0.rc4"
 
 # security vulnerability - https://github.com/advisories/GHSA-jxhc-q857-3j6g
 gem "addressable", ">= 2.8.0"
+
+gem "webrick", "~> 1.8"
