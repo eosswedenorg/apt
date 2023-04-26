@@ -4,7 +4,7 @@ name: leap
 repo: antelope
 distribution: bionic
 component: stable
-installed-size: 100933
+installed-size: 97824
 description: daemon and CLI tools including nodeos, cleos, and keosd
 homepage: ""
 maintainer: EOS Network Foundation
@@ -28,6 +28,13 @@ replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/l/leap/leap_3.2.3-ubuntu18.04_amd64.deb
+  md5sum: d6119626978d6cb11022d9b1b2e4bea1
+  sha1: 337300ecf8c8406e53a7dc3a2dab725654edc281
+  sha256: 59e355582b4d1c7b58010c14783fc0928e4c5c2611d84ce53344b78e5358f6fb
+  sha512: f93a82c4a90edfa35c25b125c4014d897c68d085aef2781ae4b31306b07c2c0452fd0ba375396de726fa76e757438f6260d559b83f7a28cb745cfd8d0a9bde87
+  size: 34001860
+  version: 3.2.3
 - filename: pool/stable/l/leap/leap_3.2.0-ubuntu18.04_amd64.deb
   md5sum: c9714dd3c367315040e0799e9a4c503d
   sha1: f443486827fa219a0270e6f3939652ee529a0802
