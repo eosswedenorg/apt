@@ -44,6 +44,13 @@ versions:
   sha512: d9b5343b4be84767a691ac28c67f81dc59ce9750291e4adf841eb6d2164c487ea76fd502a8c833e607de999de943d41bf5353962d3d0e149a0f098d8e9e1d313
   size: 3701876
   version: 1.4.3
+- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.2_amd64.deb
+  md5sum: d644bd16f48cb143b7dbeec0707bd440
+  sha1: 942e13afac1a210e856b728b7a14d6c473b44bf0
+  sha256: e7000b1758a04be0bf1941642be79d1399b864095925ac041c1886d5861fc147
+  sha512: 7e296e5eb01d5581150065d1f2b31b379b1a59c5f39b5b7e7122d5c2fc71112cd34915ddc2f96d57ce8dd88daff14b133403795e208256e395ace0a0f87a8457
+  size: 3701248
+  version: 1.4.2
 - filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.1_amd64.deb
   md5sum: 57fd2f50655cd71f6d365910f436b342
   sha1: ae725f00f2e47b20021924199f54c0eb4fef807b

@@ -4,7 +4,7 @@ name: antelope-api-healthcheck
 repo: main
 distribution: focal
 component: stable
-installed-size: 13344
+installed-size: 13352
 description: |
   HAproxy healthcheck program for Leap API.
   This package provides all the files needed to
@@ -23,6 +23,13 @@ replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.5_amd64.deb
+  md5sum: b09f9f78f743bcb2002ce2c11b13737f
+  sha1: 6b3114f65716814504c8e24aa8ae793afbd359c5
+  sha256: 0dc492d57a82dcdeeb7d7abb2aef69c21a00c0644001ce28f56cf2d1434fe6da
+  sha512: b40eb78d64962d92ea7c290aca87521eec73425bacd1c19427f571ca548c445938b63454da44c307cd3fe8ceb3aec953a967be87fb9b7a11cdc2ee5b3ca5da92
+  size: 3711444
+  version: 1.4.5
 - filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.4_amd64.deb
   md5sum: f7bb1ba01bec1562e23dbdef4c66dbd1
   sha1: aaa3d7bf55df35d19e0a67710b6cd7e36b539acd
@@ -37,6 +44,20 @@ versions:
   sha512: d9b5343b4be84767a691ac28c67f81dc59ce9750291e4adf841eb6d2164c487ea76fd502a8c833e607de999de943d41bf5353962d3d0e149a0f098d8e9e1d313
   size: 3701876
   version: 1.4.3
+- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.2_amd64.deb
+  md5sum: d644bd16f48cb143b7dbeec0707bd440
+  sha1: 942e13afac1a210e856b728b7a14d6c473b44bf0
+  sha256: e7000b1758a04be0bf1941642be79d1399b864095925ac041c1886d5861fc147
+  sha512: 7e296e5eb01d5581150065d1f2b31b379b1a59c5f39b5b7e7122d5c2fc71112cd34915ddc2f96d57ce8dd88daff14b133403795e208256e395ace0a0f87a8457
+  size: 3701248
+  version: 1.4.2
+- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.1_amd64.deb
+  md5sum: 57fd2f50655cd71f6d365910f436b342
+  sha1: ae725f00f2e47b20021924199f54c0eb4fef807b
+  sha256: 76f62a096066303bab3d24105df87ba883a8c23f7f940f46232b86f15679468b
+  sha512: abae262ed73c1efd3cef1ce116d72d90ead76f6fe9390be66db64ef136a99ff53648654117dc7c2e5ad40ba62960698ee8888c703d2a22af9dfc208a036f069f
+  size: 3700616
+  version: 1.4.1
 - filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.0_amd64.deb
   md5sum: 677eb110c8126ef764686d510a7a26b2
   sha1: 445a2e536ecc24b0c7fd4689411f37f4a1684a5b
