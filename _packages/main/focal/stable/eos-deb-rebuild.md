@@ -4,7 +4,7 @@ name: eos-deb-rebuild
 repo: main
 distribution: focal
 component: stable
-installed-size: 0
+installed-size: 35
 description: Script to rebuild eosio debian packages
 homepage: https://github.com/eosswedenorg/eos-deb-rebuild
 maintainer: Henrik Hautakoski <henrik@eossweden.org>
@@ -13,6 +13,13 @@ priority: optional
 architecture: all
 pre-depends: []
 depends:
+- coreutils
+- findutils
+- grep
+- awk
+- sed
+- lsb-release
+- dpkg
 - eos-deb-rebuild-info (>= 1.0.3)
 conflicts: []
 breaks: []
@@ -20,6 +27,20 @@ replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/e/eos-deb-rebuild/eos-deb-rebuild_0.3.3_all.deb
+  md5sum: 8e871d4ae04e9b37e483bb7ae4a036b2
+  sha1: 8fec7d676b8137b37ffad5f8fc498e493e64d763
+  sha256: 1e5a9caab21ee429d294d198a20d1a5876ad6286298ab29a3337f6ceabd53f7a
+  sha512: 8cf4f17c8d85800f8f4b0da20508b4597f5043d37954774dd085fbe908d8b9ab7fa0bebc8b3064a1f3d1d8422c0130f10e43778ddb115891a8a933d6bbf1b7de
+  size: 7824
+  version: 0.3.3
+- filename: pool/stable/e/eos-deb-rebuild/eos-deb-rebuild_0.3.2_all.deb
+  md5sum: 892208d8fcc1ce4fb557f43ac075831e
+  sha1: 902e96a1e776bdfcd26027d4d1c56f9b1bc7a9e1
+  sha256: 00a32d2a1e95b1e62bedffdb29306ddc6b4687b44c7af45eb79cb3cfd7c797d7
+  sha512: fccf1b037e60881531ebe68f6bdb363d03e02b47385e6b3cc02fe191b05a044e3dade0b53ad56a1dd157dbee370eba1bcd104f3852686f04b528da22f6cefe40
+  size: 7688
+  version: 0.3.2
 - filename: pool/stable/e/eos-deb-rebuild/eos-deb-rebuild_0.3.1-1_all.deb
   md5sum: ff4a01fc0d674b0fdec8167c166b7520
   sha1: 73ab42d4d92330b1ae1cb913844826db08a02758
