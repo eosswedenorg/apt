@@ -3,7 +3,7 @@
 name: cdt
 repo: antelope
 distribution: bionic
-component: testing
+component: stable
 installed-size: 0
 description: Toolchain and supporting tools to facilitate C/C++ development of contracts
   for Antelope blockchains
@@ -20,7 +20,7 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/testing/c/cdt/cdt_3.0.1-1-ubuntu-18.04_amd64.deb
+- filename: pool/stable/c/cdt/cdt_3.0.1-1-ubuntu-18.04_amd64.deb
   md5sum: 26c6cfbb8f453aa24633e33a5d7ad7d0
   sha1: 866554be3830b1d4c2c1e6e969e7c9e0c7544808
   sha256: a44ba4ef8580dc04adfd80c8dd275ecfaf8d7432d5e8f28b918cbe2d2fa1cb85

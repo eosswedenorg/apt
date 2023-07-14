@@ -41,6 +41,13 @@ versions:
   sha512: fccf1b037e60881531ebe68f6bdb363d03e02b47385e6b3cc02fe191b05a044e3dade0b53ad56a1dd157dbee370eba1bcd104f3852686f04b528da22f6cefe40
   size: 7688
   version: 0.3.2
+- filename: pool/stable/e/eos-deb-rebuild/eos-deb-rebuild_0.3.1-1_all.deb
+  md5sum: ff4a01fc0d674b0fdec8167c166b7520
+  sha1: 73ab42d4d92330b1ae1cb913844826db08a02758
+  sha256: 81b41cc8499a8022c1718ba693074beadc9363a6dffdd3dcc2f4f208e341236e
+  sha512: 4e7f095c000c116096996904318735924e031ab42d4d730d4b4a38aa5268770cf5da8e5249e9864bd6b83db72e33ad05ff7e976652b9a8729b7df71cbdd2346d
+  size: 6084
+  version: 0.3.1-1
 - filename: pool/stable/e/eos-deb-rebuild/eos-deb-rebuild_0.3.0-1_all.deb
   md5sum: 855617608d4455514a91e484d9c47d8f
   sha1: 43a5172fc56e30d88a7e875b6b1067f7c5224353

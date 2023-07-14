@@ -3,7 +3,7 @@
 name: lmsensorbeat
 repo: main
 distribution: bionic
-component: testing
+component: stable
 installed-size: 68418
 description: Elastic Beat for gathering metric data from libsensors
 homepage: ""
@@ -21,7 +21,7 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/testing/l/lmsensorbeat/lmsensorbeat_0.0.1_ubuntu-18.04_amd64.deb
+- filename: pool/stable/l/lmsensorbeat/lmsensorbeat_0.0.1_ubuntu-18.04_amd64.deb
   md5sum: 3ad72e4ab6b50bdb494de7dde23206da
   sha1: e9fd8e803e75acd1e8bdf83ea81126ed092522fc
   sha256: 587cc4f935b4e384f9cb85f9951fa33a9e9d5360a0f2fac7605a76c446aa6b69

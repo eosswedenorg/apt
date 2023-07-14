@@ -4,7 +4,7 @@ name: wax-leap
 repo: wax
 distribution: bionic
 component: stable
-installed-size: 100999
+installed-size: 101202
 description: Port of AntelopeIO software to WAX blockchain
 homepage: ""
 maintainer: cc32d9
@@ -28,6 +28,20 @@ replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/w/wax-leap/wax-leap_3.2.3wax01-ubuntu18.04_amd64.deb
+  md5sum: aee67ac54cc56cf93d3ad3eecb2fb102
+  sha1: f8cc7d62fc52ee3c08a22670570e109d6b4702ce
+  sha256: 86ae6e2897b9e67e0c453bfa72891366a2cda36fde9ad3697e3b74c34f271df4
+  sha512: 477a99eeee2fe7672ca62a7c1fdf34912d885cd7561ccce185770d3bdf2ce7c2420fc295379d08a72da433cea8f4619a5968e603aeb8fbfb7f24176d87223a78
+  size: 34761490
+  version: 3.2.3wax01
+- filename: pool/stable/w/wax-leap/wax-leap_3.2.1wax01-ubuntu18.04_amd64.deb
+  md5sum: d40d956470c97b90c3a30dd6cdd6df71
+  sha1: b9592b6e0b20d05bb1ee19ffc03887d9b277bfa0
+  sha256: 8d6dffd73f3510746c9dfbb0a9221f0c44994dc19d3f20223dbde42c97fa6e86
+  sha512: 335f0e105f7d18234ddfbef3e33c28c51491d0b9a97980085fc011338b446866ff9fa3eb3e9a7f8bf638a65f4da3c65e162c063d1b0a08c5b78c7959ffdfd543
+  size: 34750138
+  version: 3.2.1wax01
 - filename: pool/stable/w/wax-leap/wax-leap_3.2.0wax01-ubuntu18.04_amd64.deb
   md5sum: 0fad93271a80c28abaf83e9220556cf4
   sha1: 7db32a3a5a5978abd414ba980f82cffd6a2d87eb
@@ -35,6 +49,13 @@ versions:
   sha512: ae50f48ef062ee88673d31565ecf6a773798d9196a2bf10e84f0bbdfa495e22c35c29cb199542bc973baf0d87d49bf7080ca342a1f4e3c8f94ec1ac7dc1814d1
   size: 34688844
   version: 3.2.0wax01
+- filename: pool/stable/w/wax-leap/wax-leap-3.1.4-ubuntu18.04-x86_64.deb
+  md5sum: 7613894033054398ed1c7ca8d4146836
+  sha1: fb38c7333c011de25bd4dee774070e671bdbcde1
+  sha256: 8395d69881d9b96bf47d1bf5ef2eb0a6dc9654b070053cef354a9bcba8ea80a0
+  sha512: 5fc209d87e2e28618a2bddc4494ad9999a88beca230646bf58d1e40f56b6cb8a0cea4f1c738f9c1501edf6fec8371bb001802502218583bb104373b13e3939a2
+  size: 31388390
+  version: 3.1.4
 - filename: pool/stable/w/wax-leap/wax-leap-3.1.3wax01-ubuntu18.04-x86_64.deb
   md5sum: 06fef615d7ad6fa4845fb04e6b425490
   sha1: 3ba5218befb0506ecd827cea537f86118b67ff72
