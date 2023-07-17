@@ -20,13 +20,20 @@ depends:
 - sed
 - lsb-release
 - dpkg
-- eos-deb-rebuild-info (>= 1.0.3)
+- eos-deb-rebuild-info (>= 1.0.4)
 conflicts: []
 breaks: []
 replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/e/eos-deb-rebuild/eos-deb-rebuild_0.3.4_all.deb
+  md5sum: 93b02a65309f0f0c203453463cf53ad2
+  sha1: 8a879ce44894e3d3595d6031bdfff4d38580d807
+  sha256: 279879e3fabbd495f4a3e6fe8ca4111f93e594c0140f96447eb4be5b004abfe9
+  sha512: 4f905cc2ec5308db95d2016b9ceed68eaf2e267d99ba2514fcff5eab39f033970e42106dd31b5ef11f3f1c5cb5eef506a5cd10708f5ba1a26c8a4376644c8ff0
+  size: 7980
+  version: 0.3.4
 - filename: pool/stable/e/eos-deb-rebuild/eos-deb-rebuild_0.3.3_all.deb
   md5sum: 8e871d4ae04e9b37e483bb7ae4a036b2
   sha1: 8fec7d676b8137b37ffad5f8fc498e493e64d763
