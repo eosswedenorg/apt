@@ -19,6 +19,13 @@ replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/e/eos-deb-rebuild-info/eos-deb-rebuild-info_1.0.4-1_all.deb
+  md5sum: c948b7229cce9f7cda6d7c93a0fd1a4e
+  sha1: edffb7bfecf9463171db3391ab5a507d1df77b36
+  sha256: f7985aa5ea8010c26023895f5776e1d615e4531216e0bfe71c34f1ba996d50f9
+  sha512: 05eac5240728f54d60a2ced6a9ff2fadf08a97dc07b469bd7dfd04b4f8f96065741fdf0e08e703379f2c1b8a75e50a4c995e55209b5488df0b379d39ba883e1d
+  size: 1794
+  version: 1.0.4-1
 - filename: pool/stable/e/eos-deb-rebuild-info/eos-deb-rebuild-info_1.0.3-1_all.deb
   md5sum: bdbefd03fa00f2229ca5e5797e568fcf
   sha1: 82324f9d1e29ad4f5eb0039816724da27899747a
