@@ -3,7 +3,7 @@
 name: mandel-310-rc1
 repo: mandel
 distribution: bionic
-component: testing
+component: stable
 installed-size: 89197
 description: The mandel fork of EOSIO
 homepage: https://github.com/eosnetworkfoundation/mandel
@@ -26,7 +26,7 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/testing/m/mandel-310-rc1/mandel-310-rc1_3.1.0-rc1-ubuntu-18.04_64.deb
+- filename: pool/stable/m/mandel-310-rc1/mandel-310-rc1_3.1.0-rc1-ubuntu-18.04_64.deb
   md5sum: 28d23c4a7dc22cd29a88bfafcd542400
   sha1: cd426dbe3a9338bb8ddfdfee539ec1e81dcc07f6
   sha256: 9f0342c44bd8b12c245d078ffd492f8c3737996132bde01d2b43ba1f5e14a680
