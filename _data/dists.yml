@@ -10,3 +10,7 @@ eoan:
 focal:
     version: "20.04"
     codename_full: "Focal Fossa"
+
+jammy:
+    version: "22.04"
+    codename_full: "Jammy Jellyfish"
