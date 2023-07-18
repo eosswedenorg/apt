@@ -23,35 +23,35 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.5_amd64.deb
+- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.5-ubuntu18.04_amd64.deb
   md5sum: b09f9f78f743bcb2002ce2c11b13737f
   sha1: 6b3114f65716814504c8e24aa8ae793afbd359c5
   sha256: 0dc492d57a82dcdeeb7d7abb2aef69c21a00c0644001ce28f56cf2d1434fe6da
   sha512: b40eb78d64962d92ea7c290aca87521eec73425bacd1c19427f571ca548c445938b63454da44c307cd3fe8ceb3aec953a967be87fb9b7a11cdc2ee5b3ca5da92
   size: 3711444
   version: 1.4.5
-- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.4_amd64.deb
+- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.4-ubuntu18.04_amd64.deb
   md5sum: f7bb1ba01bec1562e23dbdef4c66dbd1
   sha1: aaa3d7bf55df35d19e0a67710b6cd7e36b539acd
   sha256: 4750f672219e092711e51e21ae9216aedc7245d04bcb168f77110a57af39ded0
   sha512: 1d8db886db4fada5dd4f4a35f61df8c08c98d04e070451047c107b4dd98b248197e6ba184ff50956f8d672e2f4b40a97972dd2c8d27db393bf52ea66eca41b65
   size: 3709688
   version: 1.4.4
-- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.3_amd64.deb
+- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.3-ubuntu18.04_amd64.deb
   md5sum: eb3bb13926610644755e15d0c029f220
   sha1: c04dedfdb39e7e8c095ac5ea3ef69ab569d1f864
   sha256: 32ea3acefaaf3fb56fb2be7a62336bb74c1dce9877cc89a2a086f6449215f1c2
   sha512: d9b5343b4be84767a691ac28c67f81dc59ce9750291e4adf841eb6d2164c487ea76fd502a8c833e607de999de943d41bf5353962d3d0e149a0f098d8e9e1d313
   size: 3701876
   version: 1.4.3
-- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.2_amd64.deb
+- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.2-ubuntu18.04_amd64.deb
   md5sum: d644bd16f48cb143b7dbeec0707bd440
   sha1: 942e13afac1a210e856b728b7a14d6c473b44bf0
   sha256: e7000b1758a04be0bf1941642be79d1399b864095925ac041c1886d5861fc147
   sha512: 7e296e5eb01d5581150065d1f2b31b379b1a59c5f39b5b7e7122d5c2fc71112cd34915ddc2f96d57ce8dd88daff14b133403795e208256e395ace0a0f87a8457
   size: 3701248
   version: 1.4.2
-- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.1_amd64.deb
+- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.1-ubuntu18.04_amd64.deb
   md5sum: 57fd2f50655cd71f6d365910f436b342
   sha1: ae725f00f2e47b20021924199f54c0eb4fef807b
   sha256: 76f62a096066303bab3d24105df87ba883a8c23f7f940f46232b86f15679468b
