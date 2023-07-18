@@ -4,7 +4,7 @@ name: antelope-api-healthcheck
 repo: main
 distribution: focal
 component: stable
-installed-size: 13352
+installed-size: 13340
 description: |
   HAproxy healthcheck program for Leap API.
   This package provides all the files needed to
@@ -16,19 +16,19 @@ priority: optional
 architecture: amd64
 pre-depends: []
 depends:
-- libc6 (>= 2.4)
+- libc6 (>= 2.34)
 conflicts: []
 breaks: []
 replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.5_amd64.deb
-  md5sum: b09f9f78f743bcb2002ce2c11b13737f
-  sha1: 6b3114f65716814504c8e24aa8ae793afbd359c5
-  sha256: 0dc492d57a82dcdeeb7d7abb2aef69c21a00c0644001ce28f56cf2d1434fe6da
-  sha512: b40eb78d64962d92ea7c290aca87521eec73425bacd1c19427f571ca548c445938b63454da44c307cd3fe8ceb3aec953a967be87fb9b7a11cdc2ee5b3ca5da92
-  size: 3711444
+- filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.5-ubuntu22.04_amd64.deb
+  md5sum: bf4e52e8ab7661f858de1a14cc4d8bbf
+  sha1: 5fc1f9ecc881039dda63f190b0e1c901fad3a00f
+  sha256: bc5fe7f91ab80b6f3540b916ca68def0fe1276ffb6e2f7ef72bcba85392308e1
+  sha512: c1451c4ed6fb40b341b811a192367363d0b1d0aac085a65f83519bf78e2950f8ec75966db1bef792e5a62d9f749d61f4e03febfb8f34e7d6c57455c00d3e9e1d
+  size: 4154330
   version: 1.4.5
 - filename: pool/stable/a/antelope-api-healthcheck/antelope-api-healthcheck_1.4.4_amd64.deb
   md5sum: f7bb1ba01bec1562e23dbdef4c66dbd1
