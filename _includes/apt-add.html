@@ -1,15 +1,5 @@
 {% assign apt-add_domain = include.domain | default: site.apt.domain %}
 
-{% if include.distribution != 'focal' %}
-<blockquote>
-	<h4>If you are on Ubuntu 20.04 (focal) do this</h4>
-	{% highlight bash %}
-wget {{ site.ubuntu20_libicu60.url }}/{{ site.ubuntu20_libicu60.pkg }}
-sudo dpkg -i ./{{ site.ubuntu20_libicu60.pkg }}
-sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} bionic {{ include.components }}'{% endhighlight %}
-</blockquote>
-{% endif %}
-
 {% if include.distribution %}
 {% highlight bash %}
 sudo apt-add-repository -y 'deb [arch=amd64] https://{{ apt-add_domain }}/{{ include.repo }} {{ include.distribution }} {{ include.components }}'{% if include.update == true %}
