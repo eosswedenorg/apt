@@ -3,7 +3,7 @@
 name: leap-500-rc3
 repo: antelope
 distribution: jammy
-component: stable
+component: testing
 installed-size: 138201
 description: C++ implementation of the Antelope protocol
 homepage: https://github.com/AntelopeIO/leap
@@ -26,7 +26,7 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/stable/l/leap-500-rc3/leap-500-rc3_5.0.0-rc3-ubuntu-22.04_amd64.deb
+- filename: pool/testing/l/leap-500-rc3/leap-500-rc3_5.0.0-rc3-ubuntu-22.04_amd64.deb
   md5sum: bbc085cbbc8368c1603a555bcd302e3d
   sha1: 84199ea6fb8d4d015d4a75073af46a94c4b4aef0
   sha256: fabe17187fff3554115221ab6b147fdfbba1970c5185729fb04c14568fb5385c
