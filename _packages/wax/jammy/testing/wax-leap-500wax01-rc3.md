@@ -3,7 +3,7 @@
 name: wax-leap-500wax01-rc3
 repo: wax
 distribution: jammy
-component: stable
+component: testing
 installed-size: 0
 description: Port of AntelopeIO software to WAX blockchain
 homepage: https://github.com/cc32d9/wax-leap
@@ -24,7 +24,7 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/stable/w/wax-leap-500wax01-rc3/wax-leap-500wax01-rc3_5.0.0wax01-rc3-ubuntu-22.04_amd64.deb
+- filename: pool/testing/w/wax-leap-500wax01-rc3/wax-leap-500wax01-rc3_5.0.0wax01-rc3-ubuntu-22.04_amd64.deb
   md5sum: 405219f3f18d0e2b6c0af93aa83b8c0d
   sha1: 2a9b57c784ab2a03e5e7cc0e0d0ffeba55043fb0
   sha256: d258d0e52df548439a2c135607e15a70ce20f24342faa264ceb3194afe84ef5c
