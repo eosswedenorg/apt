@@ -4,16 +4,16 @@ name: wax-leap-405wax01
 repo: wax
 distribution: bionic
 component: stable
-installed-size: 133542
-description: wax-leap built using CMake
-homepage: ""
+installed-size: 133522
+description: Port of AntelopeIO software to WAX blockchain
+homepage: https://github.com/cc32d9/wax-leap
 maintainer: cc32d9
 section: utils
 priority: optional
 architecture: amd64
 pre-depends: []
 depends:
-- libc6 (>= 2.30)
+- libc6 (>= 2.18)
 - libcurl4 (>= 7.16.2)
 - libgcc-s1 (>= 3.3)
 - libgmp10
@@ -25,11 +25,11 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/stable/w/wax-leap-405wax01/wax-leap-405wax01_4.0.5wax01-ubuntu-20.04_amd64.deb
-  md5sum: 639bdc4fce256fa596e2003302e9c897
-  sha1: 8123f7df50d275e58e073f881d8ef3b90ac3b6f4
-  sha256: a48a4d406ceda22a4913d40b789ebfe63e4f891254ba84a4c6ce216e59c84671
-  sha512: 1ed8e2397cc2dbb1728e81098bf35399a361af7e7aaf84e928d99df0f0120390e29043733f69e3bef976352125e91d948ff9bf7487b56a714a5b360f857453b3
-  size: 27934948
+- filename: pool/stable/w/wax-leap-405wax01/wax-leap-405wax01_4.0.5wax01-ubuntu-18.04_amd64.deb
+  md5sum: b90733173b3ccdb9277ef2ae411115c7
+  sha1: aafb4834b602316bcb7741ff4864c9210acd29e5
+  sha256: d36ab5394082927a2118031f22fd2da340626ec155fff689be8c3fe855fa6def
+  sha512: f00df68f9b3db0b4fb369f97c9f2bb2cc4fb4fef83179a4faf2c188adc7af4aedbea5061adccdb8ab4d50e94662609e3f6be202f2567939fc4c42798fc58e5b3
+  size: 27932184
   version: 4.0.5wax01
 ---
