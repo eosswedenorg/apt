@@ -21,7 +21,7 @@ replaces: []
 suggests: []
 built-using: []
 versions:
-- filename: pool/stable/l/lazygit/lazygit_v0.9.deb
+- filename: pool/stable/l/lazygit/lazygit_focal_v0.9.deb
   md5sum: 6bb0ef875346fb627a9d1c1f3b3fe560
   sha1: d566fc95cb588bc104c3eeee3dcae23dcf9f476e
   sha256: 1fa1e21620b538a2f068e02242a31fd3c824a46da078f82ee0179f8d5cd67ed3
