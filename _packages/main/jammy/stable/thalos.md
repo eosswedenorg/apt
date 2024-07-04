@@ -4,7 +4,7 @@ name: thalos
 repo: main
 distribution: jammy
 component: stable
-installed-size: 25169
+installed-size: 25177
 description: Stream blockchain data from an Antelope SHIP node with ease.
 homepage: https://github.com/eosswedenorg/thalos
 maintainer: Henrik Hautakoski <henrik.hautakoski@gmail.com>
@@ -21,6 +21,13 @@ replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/t/thalos/thalos_1.1.3_amd64.deb
+  md5sum: ad84df285adf643fad18a8ff35663ca3
+  sha1: ef853c0200b30db7ae219cbcd00a2f4c3fc8a917
+  sha256: 615ad31719a728ff3d31bd9300016eea38c706c5d45d3200c8848ae54481a5ac
+  sha512: 5d51c8d91a1b6300f5b795827dbaa113ac263498bca3f45db1af3b9aef44c5ee2a2fb44634014461e4692936ec7c33e26e9763de1bb48002c58817ba6da7f782
+  size: 7778676
+  version: 1.1.3
 - filename: pool/stable/t/thalos/thalos_1.1.2_amd64.deb
   md5sum: 0d7f55706126a18b216cfc406d343e86
   sha1: 089bf8a55cbeead2007ad28ca74ba1a3ff62bbb5
