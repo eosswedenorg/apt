@@ -21,6 +21,13 @@ replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/t/thalos/thalos_1.1.4_amd64.deb
+  md5sum: 50d61df3045579f5695e036f5b5a81e8
+  sha1: 5cab582a73a6d37829541ac07e91db9931a9adb2
+  sha256: 30e704a52e9000ceff10850f28e74d73882889285289e621584ca6349a788056
+  sha512: 82b83668f28ceb41af88f6d69bd10fc2e606d1ca340889fdd5dfe75c26c41a589799ae34f0bc65081d0ae9545d8b33251d7d3596bef7fadd9c2bdb6ece447941
+  size: 7780382
+  version: 1.1.4
 - filename: pool/stable/t/thalos/thalos_1.1.3_amd64.deb
   md5sum: ad84df285adf643fad18a8ff35663ca3
   sha1: ef853c0200b30db7ae219cbcd00a2f4c3fc8a917
