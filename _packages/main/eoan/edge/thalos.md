@@ -4,7 +4,7 @@ name: thalos
 repo: main
 distribution: eoan
 component: edge
-installed-size: 25255
+installed-size: 28214
 description: Stream blockchain data from an Antelope SHIP node with ease.
 homepage: https://github.com/eosswedenorg/thalos
 maintainer: Henrik Hautakoski <henrik.hautakoski@gmail.com>
@@ -21,6 +21,13 @@ replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/edge/t/thalos/thalos_1.1.7.rc1_amd64.deb
+  md5sum: 6bfca4dfd04a11f51cbf240b1145576f
+  sha1: 2a573bbe6059f8133607b8e79f4849c458af33ee
+  sha256: 2fd43f14566355a35f5b0b044b4f2c2e3a7a7d1c36211bb5071635ffb5f88c67
+  sha512: 3b18276361bbcaac6194a102c4e6cae9967b7aca2b13b5a7ed1eb4ab716caed3292510d5fc6ee1557d6446e90978ef7fd1737913356d9ef9afe60fbd6160017b
+  size: 8605304
+  version: 1.1.7~rc1
 - filename: pool/edge/t/thalos/thalos_1.1.5.rc1_amd64.deb
   md5sum: fc55d910cb621f1ecd56fb0c32330383
   sha1: 1ffa41ad28ba3ec173f3cf0a22b19c1172440afa
