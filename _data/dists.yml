@@ -14,3 +14,7 @@ focal:
 jammy:
     version: "22.04"
     codename_full: "Jammy Jellyfish"
+
+numbat:
+    version: "24.04"
+    codename_full: "Noble Numbat"
