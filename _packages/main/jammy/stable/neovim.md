@@ -4,7 +4,7 @@ name: neovim
 repo: main
 distribution: jammy
 component: stable
-installed-size: 43310
+installed-size: 53208
 description: Vim-fork focused on extensibility and usability.
 homepage: ""
 maintainer: Neovim.io
@@ -14,13 +14,20 @@ architecture: amd64
 pre-depends: []
 depends:
 - libc6 (>= 2.34)
-- libgcc-s1 (>= 3.3)
+- libgcc-s1 (>= 3.4)
 conflicts: []
 breaks: []
 replaces: []
 suggests: []
 built-using: []
 versions:
+- filename: pool/stable/n/neovim/nvim-linux-0.11-x86_64.deb
+  md5sum: d52ffa0ce5e629fedf2cde5c4faabfeb
+  sha1: 5f216afddf4fa21dc536aa227b4a19a8542bf38f
+  sha256: c21b4ff0d220a7c20af969e32a99e4b2773b02355f9dc7e86b57ef7a834d7594
+  sha512: 2f98ea8b3819339c26757432ba7a0531616cd13931e0e63f82b71a877ec26005ea5cbee90c8d7a5ff9d2265dc0e1aa859154275ae2719c1c7a3de409ace9747b
+  size: 20016162
+  version: 0.11.1
 - filename: pool/stable/n/neovim/nvim-jammy-linux64.deb
   md5sum: 82e0eecfc0dea347eeac3dd1b200bf10
   sha1: 049924953711483855453efe977ea5b81e72dab0
